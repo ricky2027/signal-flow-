@@ -1,0 +1,10 @@
+{
+  "new_run_id": null,
+  "submitted": false,
+  "live_outcome": "blocked_before_submission",
+  "services_restarted": false,
+  "historical_records_modified": false,
+  "transport_error": "ConnectError",
+  "api.openai.com_dns": "failed",
+  "www.kellyocg.com_dns": "failed"
+}

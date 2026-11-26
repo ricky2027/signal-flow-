@@ -1,0 +1,2317 @@
+{
+ "id": "d68249b0-bad3-46c1-8516-47e4dcbe04bd",
+ "prospect_name": "Andy Jassy",
+ "company_name": "Amazon",
+ "status": "awaiting_review",
+ "stage": "validate_draft",
+ "created_at": "2026-11-26T17:50:37.429785Z",
+ "finished_at": "2026-11-26T17:55:30.262777Z",
+ "outcome_reason": null,
+ "input": {
+  "prospect_name": "Andy Jassy",
+  "company_name": "Amazon",
+  "designation": "President and Chief Executive Officer",
+  "company_website": "https://www.aboutamazon.com/",
+  "product_service": "Recruitment process outsourcing and high-volume staffing services for enterprises scaling their workforce.",
+  "value_proposition": "We help large employers that are expanding, opening new facilities or hiring at scale to fill roles faster and cheaper through managed recruitment, contingent staffing and workforce planning. Recent hiring drives, new warehouse or office openings and geographic expansion are strong signals of immediate staffing demand."
+ },
+ "prospect_id": "11fd0db5-7828-44a8-a7c5-cc08bbe2bee9",
+ "parent_run_id": null,
+ "warnings": [
+  "https://ir.aboutamazon.com/officers-and-directors/default.aspx: No explicit officer or director names, titles, or employment relationships are quoted in the provided page text. No passage supports or disputes Andy Jassy's current role or identity at Amazon.",
+  "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas: No evidence found on this page regarding Andy Jassy's identity or current role at Amazon.",
+  "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas: No explicit full calendar date of the event in the quoted passage; publication date taken instead.",
+  "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas: The passage does not confirm the user's specified designation for Andy Jassy.",
+  "Several context and event sources are not about Andy Jassy's role and are not relevant to role verification.",
+  "Some sources, such as Wikipedia and Amazon IR, are undated or historical and do not prove current employment.",
+  "role_currentness_unverified_role_claims_excluded"
+ ],
+ "error": null,
+ "current_draft_id": "12d641eb-1e65-496c-8f9a-8cc1788d2f5a",
+ "sources": [
+  {
+   "id": "src_d92cb4725bb801e429d3b93e",
+   "url": "https://www.aboutamazon.com/news/workplace/amazon-s-team-members",
+   "title": "A complete list of Amazon\u2019s S-team members",
+   "publisher": "Amazon.com, Inc.",
+   "origin_group": "Amazon",
+   "source_type": "primary",
+   "passage": "and the roles they play across the company. Share Written by Amazon Staff Published: December 14, 2023 Updated: August 01, 2026 Here's a complete list of Amazon\u2019s S-team members: Aicha Evans , CEO, Zoox Amit Agarwal , SVP, Emerging Markets and Selling Partner Services Andy Jassy , President and CEO Beth Galetti , SVP, People eXperience and Technology Brian Olsavsky",
+   "published_at": "2023-12-14",
+   "event_at": null,
+   "date_basis": "publication",
+   "planned": false,
+   "retrieved_at": "2026-11-26T17:53:50.269485Z"
+  },
+  {
+   "id": "src_4ec260296e7aaebadfccce44",
+   "url": "https://press.aboutamazon.com/job-creation-and-investment/2026/9/amazon-to-create-300-high-paying-jobs-at-new-advanced-manufacturing-facility-in-greenwood-indiana?trk=article-ssr-frontend-pulse_little-text-block",
+   "title": "Amazon to Create 300 High-Paying Jobs at New Advanced Manufacturing Facility in Greenwood, Indiana - US Press Center",
+   "publisher": "Amazon.com, Inc.",
+   "origin_group": "Amazon.com, Inc.",
+   "source_type": "primary",
+   "passage": "GREENWOOD, Ind. \u2013 September 24, 2026 \u2013 Amazon today announced plans to invest more than $100 million in a new 585,000-square-foot advanced manufacturing facility located in Greenwood, Indiana, creating 300 skilled manufacturing and engineering jobs. The facility will produce products that power Amazon's fulfillment and robotics network across North America and is expected to launch by 2028.",
+   "published_at": "2026-09-24",
+   "event_at": "2026-09-24",
+   "date_basis": "publication",
+   "planned": false,
+   "retrieved_at": "2026-11-26T17:53:50.269496Z"
+  },
+  {
+   "id": "src_313e77c2151312c8e5798b52",
+   "url": "https://ir.aboutamazon.com/officers-and-directors/person-details/default.aspx?ItemId=be0a9875-4456-4f84-b4d9-ec2e4b97d1d8",
+   "title": "Amazon.com, Inc. - Officers and directors - Person Details",
+   "publisher": "Amazon.com, Inc.",
+   "origin_group": "Amazon.com, Inc.",
+   "source_type": "primary",
+   "passage": "Andy Jassy is President and CEO of Amazon.com and also serves on the Board of Directors. He founded and led Amazon Web Services (AWS) from its inception and served as its CEO from April 2016 until July 2021. He joined Amazon in 1997 and, prior to founding AWS, held various leadership roles across the company, including both business-to-business and business-to-consumer.",
+   "published_at": null,
+   "event_at": null,
+   "date_basis": "unknown",
+   "planned": false,
+   "retrieved_at": "2026-11-26T17:53:50.269496Z"
+  },
+  {
+   "id": "src_ea544c9b544cd2312f59ab47",
+   "url": "https://www.aboutamazon.com/news/tag/andy-jassy",
+   "title": "Amazon CEO, Andy Jassy | About Amazon news",
+   "publisher": "Amazon",
+   "origin_group": "Amazon",
+   "source_type": "primary",
+   "passage": "Skills for the Future Our Data Center Approach Subscribe News Andy Jassy Andy Jassy 69 results - showing results 1 - 12 69 results < Previous Next > \u2018Keep your cool\u2019: The advice Amazon CEO Andy Jassy's dad gave him that stuck for life Workplace Nov. 4, 2026 Amazon CEO Andy Jassy: \u2018I had to change how I worked, or",
+   "published_at": null,
+   "event_at": "2026-11-02",
+   "date_basis": "event",
+   "planned": false,
+   "retrieved_at": "2026-11-26T17:53:50.269497Z"
+  },
+  {
+   "id": "src_d2e2f07242487b9254c155bf",
+   "url": "https://pressroom.versantmedia.com/cnbc/press-releases/cnbc-exclusive-transcript-amazon-president-ceo-andy-jassy-speaks-cnbcs-scott",
+   "title": "CNBC | VERSANT Press Room",
+   "publisher": "Versant Media (CNBC)",
+   "origin_group": "CNBC",
+   "source_type": "reporting",
+   "passage": "CNBC Exclusive: Transcript: Amazon President & CEO Andy Jassy Speaks with CNBC\u2019s Scott Wapner on \u201cHalftime Report\u201d Today Amazon President & CEO Andy Jassy Speaks with CNBC\u2019s Scott Wapner on \u201cHalftime Report\u201d Today CNBC November 17, 2026 WHEN: Today, Tuesday, November 17, 2026 WHERE: CNBC\u2019s \u201cHalftime Report\u201d Following is the unofficial transcript of a CNBC exclusive interview with Amazon President & CEO Andy Jassy who joined CNBC\u2019s \u201cHalftime Report\u201d (M-F, 12PM-1PM ET) today, Tuesday, November 17.",
+   "published_at": null,
+   "event_at": "2026-11-17",
+   "date_basis": "event",
+   "planned": false,
+   "retrieved_at": "2026-11-26T17:53:50.269498Z"
+  },
+  {
+   "id": "src_a590ad24d7bdf4d396d540e9",
+   "url": "https://en.wikipedia.org/wiki/Andy_Jassy",
+   "title": "Andy Jassy",
+   "publisher": "Wikipedia",
+   "origin_group": "wikipedia.org",
+   "source_type": "reporting",
+   "passage": "\u2191 Weise, Karen (February 2, 2021). \"Jeff Bezos to Step Down as Amazon C.E.O.\" The New York Times . \u2191 Haselton, Todd (February 2, 2021). \"Jeff Bezos to step down as Amazon CEO, Andy Jassy to take over in Q3\" . CNBC . \u2191 \"Andy Jassy\" . Amazon Investor Relations . Retrieved June 18, 2026 . 1 2 \"Amazon's Next",
+   "published_at": null,
+   "event_at": null,
+   "date_basis": "unknown",
+   "planned": false,
+   "retrieved_at": "2026-11-26T17:53:50.269498Z"
+  },
+  {
+   "id": "src_0a68ecf19c64f49f34f61964",
+   "url": "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas",
+   "title": "Amazon and Wiwynn expand Texas manufacturing facility, creating nearly 1,000 jobs",
+   "publisher": "Amazon",
+   "origin_group": "Amazon",
+   "source_type": "primary",
+   "passage": "September 09, 2026 4 min read Key takeaways Amazon and Wiwynn announced a facility expansion in Socorro, Texas, to boost U.S. manufacturing and create nearly 1,000 jobs. The expanded site helps to strengthen Amazon\u2019s supply chain with U.S.-manufactured server racks. Amazon has invested more than $100 billion in Texas since 2010 , with 86,000 employees working across the state. Amazon",
+   "published_at": "2026-09-09",
+   "event_at": null,
+   "date_basis": "publication",
+   "planned": false,
+   "retrieved_at": "2026-11-26T17:53:50.269499Z"
+  },
+  {
+   "id": "src_48f8107fb290e69448eba325",
+   "url": "https://press.aboutamazon.com/2026/8/amazon-announces-new-manufacturing-facility-in-austin-texas",
+   "title": "Amazon Announces New Manufacturing Facility in Austin, Texas - US Press Center",
+   "publisher": "Amazon Press Center",
+   "origin_group": "Amazon.com, Inc.",
+   "source_type": "primary",
+   "passage": "Facility in Austin, Texas The new commitment builds on the $100 billion the company has invested in Texas since 2010 and will create hundreds of high-paying jobs in Austin Today, Amazon announced a significant new manufacturing facility in Austin, Texas. This multi-billion-dollar development extends Amazon's existing manufacturing presence in the U.S. and is part of the company's broader long-term commitment",
+   "published_at": null,
+   "event_at": "2026-08-19",
+   "date_basis": "event",
+   "planned": false,
+   "retrieved_at": "2026-11-26T17:53:50.269500Z"
+  },
+  {
+   "id": "src_15f7f690a78ac9f2b758b96b",
+   "url": "https://press.aboutamazon.com/2026/10/amazon-creates-over-300-000-new-u-s-jobs-this-holiday-season-with-increased-pay-and-expanded-benefits?trk=article-ssr-frontend-pulse_little-text-block",
+   "title": "Amazon-Creates-Over-300000-New-U-S--Jobs-This-Holiday-Season-with-Increased-Pay-and-Expanded-Benefits - US Press Center",
+   "publisher": "Amazon.com, Inc.",
+   "origin_group": "Amazon.com, Inc.",
+   "source_type": "primary",
+   "passage": "Arab Emirates About Amazon (English) Press Center Press Releases Images & Videos Investor Relations Contact Us October 20, 2026 Amazon Creates Over 300,000 New U.S. Jobs This Holiday Season with Increased Pay and Expanded Benefits Starting January 1, 2027, eligible seasonal employees will have access to healthcare coverage from their first day on the job SEATTLE--(BUSINESS WIRE)-- Amazon (NASDAQ: AMZN)",
+   "published_at": null,
+   "event_at": "2026-10-20",
+   "date_basis": "event",
+   "planned": false,
+   "retrieved_at": "2026-11-26T17:53:50.269500Z"
+  }
+ ],
+ "claims": [
+  {
+   "id": "claim1",
+   "text": "Andy Jassy is listed as President and CEO among Amazon's S-team members.",
+   "source_ids": [
+    "src_d92cb4725bb801e429d3b93e"
+   ],
+   "entity_match": true,
+   "verification": "supported",
+   "kind": "identity",
+   "conflict_group": null
+  },
+  {
+   "id": "clm_0",
+   "text": "Amazon announced plans to invest more than $100 million in a new advanced manufacturing facility in Greenwood, Indiana, creating 300 skilled manufacturing and engineering jobs.",
+   "source_ids": [
+    "src_4ec260296e7aaebadfccce44"
+   ],
+   "entity_match": true,
+   "verification": "supported",
+   "kind": "event",
+   "conflict_group": null
+  },
+  {
+   "id": "claim_1",
+   "text": "Andy Jassy is President and CEO of Amazon.com.",
+   "source_ids": [
+    "src_313e77c2151312c8e5798b52"
+   ],
+   "entity_match": true,
+   "verification": "supported",
+   "kind": "identity",
+   "conflict_group": null
+  },
+  {
+   "id": "claim_a989c4e877de20400f4cf41d",
+   "text": "Andy Jassy is referred to as Amazon CEO.",
+   "source_ids": [
+    "src_ea544c9b544cd2312f59ab47"
+   ],
+   "entity_match": true,
+   "verification": "supported",
+   "kind": "identity",
+   "conflict_group": null
+  },
+  {
+   "id": "clm_001",
+   "text": "Andy Jassy is President & CEO of Amazon.",
+   "source_ids": [
+    "src_d2e2f07242487b9254c155bf"
+   ],
+   "entity_match": true,
+   "verification": "supported",
+   "kind": "identity",
+   "conflict_group": null
+  },
+  {
+   "id": "clm_002",
+   "text": "On November 17, 2026, Andy Jassy participated in a CNBC exclusive interview on the show 'Halftime Report' as President & CEO of Amazon.",
+   "source_ids": [
+    "src_d2e2f07242487b9254c155bf"
+   ],
+   "entity_match": true,
+   "verification": "supported",
+   "kind": "event",
+   "conflict_group": null
+  },
+  {
+   "id": "claim_6dbd2d2e74b2b898996610ca",
+   "text": "Jeff Bezos is to step down as Amazon CEO, and Andy Jassy is to take over in Q3.",
+   "source_ids": [
+    "src_a590ad24d7bdf4d396d540e9"
+   ],
+   "entity_match": true,
+   "verification": "supported",
+   "kind": "event",
+   "conflict_group": null
+  },
+  {
+   "id": "claim_47ef2812eb352ed686e5ce00",
+   "text": "Amazon and Wiwynn announced a facility expansion in Socorro, Texas, to boost U.S. manufacturing and create nearly 1,000 jobs.",
+   "source_ids": [
+    "src_0a68ecf19c64f49f34f61964"
+   ],
+   "entity_match": false,
+   "verification": "unsupported",
+   "kind": "event",
+   "conflict_group": null
+  },
+  {
+   "id": "claim_f527fa3284b86199df37b9dc",
+   "text": "Amazon announced a significant new manufacturing facility in Austin, Texas.",
+   "source_ids": [
+    "src_48f8107fb290e69448eba325"
+   ],
+   "entity_match": false,
+   "verification": "unsupported",
+   "kind": "event",
+   "conflict_group": null
+  },
+  {
+   "id": "c1",
+   "text": "On October 20, 2026, Amazon announced it was creating over 300,000 new U.S. jobs for the holiday season.",
+   "source_ids": [
+    "src_15f7f690a78ac9f2b758b96b"
+   ],
+   "entity_match": false,
+   "verification": "unsupported",
+   "kind": "event",
+   "conflict_group": null
+  },
+  {
+   "id": "clm_1",
+   "text": "The new facility will produce products used in Amazon's fulfillment and robotics network across North America and is expected to launch by 2028.",
+   "source_ids": [
+    "src_4ec260296e7aaebadfccce44"
+   ],
+   "entity_match": true,
+   "verification": "unsupported",
+   "kind": "context",
+   "conflict_group": null
+  },
+  {
+   "id": "claim2",
+   "text": "Andy Jassy is listed on Amazon Investor Relations as of June 18, 2026.",
+   "source_ids": [
+    "src_a590ad24d7bdf4d396d540e9"
+   ],
+   "entity_match": true,
+   "verification": "supported",
+   "kind": "context",
+   "conflict_group": null
+  },
+  {
+   "id": "claim_688c32a8cc9d9aeb8ae1d18a",
+   "text": "The expanded site helps to strengthen Amazon\u2019s supply chain with U.S.-manufactured server racks.",
+   "source_ids": [
+    "src_0a68ecf19c64f49f34f61964"
+   ],
+   "entity_match": false,
+   "verification": "unsupported",
+   "kind": "context",
+   "conflict_group": null
+  },
+  {
+   "id": "claim3",
+   "text": "Amazon has invested more than $100 billion in Texas since 2010.",
+   "source_ids": [
+    "src_0a68ecf19c64f49f34f61964"
+   ],
+   "entity_match": false,
+   "verification": "unsupported",
+   "kind": "context",
+   "conflict_group": null
+  },
+  {
+   "id": "claim4",
+   "text": "Amazon has 86,000 employees working across Texas.",
+   "source_ids": [
+    "src_0a68ecf19c64f49f34f61964"
+   ],
+   "entity_match": false,
+   "verification": "unsupported",
+   "kind": "context",
+   "conflict_group": null
+  },
+  {
+   "id": "claim_2",
+   "text": "This development is a multi-billion-dollar investment.",
+   "source_ids": [
+    "src_48f8107fb290e69448eba325"
+   ],
+   "entity_match": false,
+   "verification": "unsupported",
+   "kind": "context",
+   "conflict_group": null
+  },
+  {
+   "id": "claim_3",
+   "text": "This development extends Amazon's existing manufacturing presence in the U.S.",
+   "source_ids": [
+    "src_48f8107fb290e69448eba325"
+   ],
+   "entity_match": false,
+   "verification": "unsupported",
+   "kind": "context",
+   "conflict_group": null
+  },
+  {
+   "id": "claim_4",
+   "text": "The development is part of Amazon's broader long-term commitment to Texas.",
+   "source_ids": [
+    "src_48f8107fb290e69448eba325"
+   ],
+   "entity_match": false,
+   "verification": "unsupported",
+   "kind": "context",
+   "conflict_group": null
+  }
+ ],
+ "identity_confidence": "high",
+ "identity_checks": {
+  "prospect_identity": {
+   "status": "verified",
+   "claim_ids": [
+    "claim1",
+    "claim_a989c4e877de20400f4cf41d"
+   ],
+   "source_ids": [
+    "src_d92cb4725bb801e429d3b93e",
+    "src_ea544c9b544cd2312f59ab47"
+   ],
+   "reasons": []
+  },
+  "company_association": {
+   "status": "verified",
+   "claim_ids": [
+    "claim1",
+    "claim_a989c4e877de20400f4cf41d"
+   ],
+   "source_ids": [
+    "src_d92cb4725bb801e429d3b93e",
+    "src_ea544c9b544cd2312f59ab47"
+   ],
+   "reasons": []
+  },
+  "title_match": {
+   "status": "equivalent",
+   "claim_ids": [
+    "claim1",
+    "claim_1",
+    "claim_a989c4e877de20400f4cf41d",
+    "clm_001"
+   ],
+   "source_ids": [
+    "src_313e77c2151312c8e5798b52",
+    "src_d2e2f07242487b9254c155bf",
+    "src_d92cb4725bb801e429d3b93e",
+    "src_ea544c9b544cd2312f59ab47"
+   ],
+   "reasons": []
+  },
+  "role_currentness": {
+   "status": "unverified",
+   "claim_ids": [],
+   "source_ids": [],
+   "reasons": [
+    "role_currentness_unverified"
+   ]
+  },
+  "role_claim_ids": [
+   "claim1",
+   "claim_1",
+   "claim_a989c4e877de20400f4cf41d",
+   "clm_001",
+   "clm_002"
+  ]
+ },
+ "signals": [
+  {
+   "id": "sig_1",
+   "claim_ids": [
+    "clm_0"
+   ],
+   "fact_summary": "Amazon announced a $100 million investment in a new advanced manufacturing facility in Greenwood, Indiana, which will create 300 skilled manufacturing and engineering jobs.",
+   "implication": "This facility opening indicates a need for mass recruitment and workforce scaling solutions, especially for skilled manufacturing and engineering positions.",
+   "role_reason": "Andy Jassy is verified as associated with Amazon, the company executing this expansion.",
+   "offer_reason": "Opening a large facility with hundreds of new jobs is a direct and concrete signal of potential need for recruitment process outsourcing and high-volume staffing services.",
+   "role_relevance": 3,
+   "offer_fit": 3,
+   "quality": 1.0,
+   "age_days": 63,
+   "score": 94.75,
+   "eligible": true,
+   "rejection_reasons": [],
+   "selected": true,
+   "relevance_basis": "verified_company_context"
+  },
+  {
+   "id": "sig_2",
+   "claim_ids": [
+    "claim2"
+   ],
+   "fact_summary": "Andy Jassy is listed on Amazon's Investor Relations as of June 18, 2026, confirming a current association.",
+   "implication": "Verified association increases confidence in outreach but does not itself imply demand for staffing solutions.",
+   "role_reason": "Company association is verified.",
+   "offer_reason": "No direct operational or workforce event indicated by this claim alone.",
+   "role_relevance": 3,
+   "offer_fit": 0,
+   "quality": 0.0,
+   "age_days": null,
+   "score": 30.0,
+   "eligible": false,
+   "rejection_reasons": [
+    "unsupported_event",
+    "unknown_date",
+    "weak_source_quality",
+    "low_offer_fit",
+    "below_threshold"
+   ],
+   "selected": false,
+   "relevance_basis": "verified_company_context"
+  }
+ ],
+ "drafts": [
+  {
+   "subject": "Enterprise Workforce Solutions for New Manufacturing Facility Expansion",
+   "body": "Amazon has announced plans to invest more than $100 million in a new advanced manufacturing facility in Greenwood, Indiana, creating 300 skilled manufacturing and engineering jobs. [clm_0]\n\nOur team provides recruitment process outsourcing and high-volume staffing services relevant to enterprises investing in new facilities. These solutions can support large employers in filling skilled roles efficiently through managed recruitment and workforce planning. Would you be interested in learning more about how we help similar organizations optimize their large-scale hiring initiatives?",
+   "claim_refs": [
+    {
+     "field": "body",
+     "start": 0,
+     "end": 143,
+     "claim_ids": [
+      "clm_0"
+     ]
+    }
+   ],
+   "id": "12d641eb-1e65-496c-8f9a-8cc1788d2f5a",
+   "version": 1,
+   "validation_status": "valid",
+   "validation_findings": [],
+   "origin": "generated",
+   "created_at": "2026-11-26T17:55:31.284104Z"
+  }
+ ],
+ "reviews": [],
+ "policy_version": "v2-independent-identity",
+ "model_versions": {
+  "prompt": "v1",
+  "research": "gpt-4.1",
+  "reasoning": "gpt-4.1"
+ },
+ "provider_calls": [
+  {
+   "model": "gpt-4.1",
+   "stage": "research",
+   "usage": {
+    "input_tokens": 18050,
+    "total_tokens": 19054,
+    "output_tokens": 1004,
+    "input_tokens_details": {
+     "cached_tokens": 2944,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 9488,
+   "provider_request_id": "resp_0159316a6a7874e4006b08717d254887d0b3b7d68d9dc4b7a8"
+  },
+  {
+   "stage": "research",
+   "status": "tool_activity",
+   "tool_calls": [
+    {
+     "id": "ws_0159316a6a7874e4006b08717db5e487d083e79f5792a831b1",
+     "type": "web_search_call",
+     "action": {
+      "type": "search",
+      "query": "Prioritize this specific person's current official employer leadership, team or biography page, then company events within 180 days. Use the supplied query suggestions to disambiguate the person and employer. Do not restrict identity discovery to a literal user-entered title. An employer website is only a search hint; corroborate ownership and person/employer identity. For identity_recovery, focus this search on current primary identity evidence rather than repeating general company news. For employment_currentness, find recent dated employer announcements, appointments or named quotes confirming current employment. For recent_events, prioritize the company's own newsroom and press releases and reputable news within 180 days reporting dated business events (expansion, hiring, new offices/facilities, acquisitions, funding, partnerships, results); each must carry an explicit publication or event date. Do not substitute undated biographies, retrieval dates, copyright years or an after: query filter for an actual publication/event date. Use concise suggested query strings, not this entire instruction or JSON context as a search query. Discover actual public URLs; never invent profile paths. Prefer specific dated article and individual press-release pages over section, tag, index or listing pages, since a signal needs a substantive dated event statement, not a headline list. Research narration is not verified evidence. {\\\"prospect\\\": {\\\"designation\\\": \\\"President and Chief Executive Officer\\\", \\\"company_name\\\": \\\"Amazon\\\", \\\"prospect_name\\\": \\\"Andy Jassy\\\", \\\"company_website\\\": \\\"https://www.aboutamazon.com/\\\", \\\"product_service\\\": \\\"Recruitment process outsourcing and high-volume staffing services for enterprises scaling their workforce.\\\", \\\"value_proposition\\\": \\\"We help large employers that are expanding, opening new facilities or hiring at scale to fill roles faster and cheaper through managed recruitment, contingent staffing and workforce planning. Recent hiring drives, new warehouse or office openings and geographic expansion are strong signals of immediate staffing demand.\\\", \\\"today\\\": \\\"2026-11-26\\\", \\\"research_focus\\\": \\\"identity_then_events\\\", \\\"identity_gaps\\\": [], \\\"followup_focus\\\": null}, \\\"search_plan\\\": {\\\"focus\\\": \\\"identity_then_events\\\", \\\"suggested_queries\\\": [{\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"site:www.aboutamazon.com \\\\\\\"Andy Jassy\\\\\\\"\\\"}, {\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"\\\\\\\"Andy Jassy\\\\\\\" \\\\\\\"Amazon\\\\\\\" (leadership OR team OR biography)\\\"}, {\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"\\\\\\\"Andy Jassy\\\\\\\" \\\\\\\"Amazon\\\\\\\" (profile OR executive)\\\"}, {\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"\\\\\\\"Andy Jassy\\\\\\\" \\\\\\\"Amazon\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\") after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"events\\\", \\\"query\\\": \\\"site:www.aboutamazon.com (news OR newsroom OR \\\\\\\"press release\\\\\\\" OR announcement) after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"events\\\", \\\"query\\\": \\\"\\\\\\\"Amazon\\\\\\\" (expansion OR hiring OR \\\\\\\"new office\\\\\\\" OR facility OR acquisition OR merger OR funding OR investment OR partnership OR launch OR \\\\\\\"quarterly results\\\\\\\" OR earnings OR restructuring OR layoffs OR appointed OR opening) after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"events\\\", \\\"query\\\": \\\"\\\\\\\"Amazon\\\\\\\" (\\\\\\\"press release\\\\\\\" OR newsroom OR announced OR news) after:2026-05-30\\\"}]}}",
+      "queries": [
+       "Prioritize this specific person's current official employer leadership, team or biography page, then company events within 180 days. Use the supplied query suggestions to disambiguate the person and employer. Do not restrict identity discovery to a literal user-entered title. An employer website is only a search hint; corroborate ownership and person/employer identity. For identity_recovery, focus this search on current primary identity evidence rather than repeating general company news. For employment_currentness, find recent dated employer announcements, appointments or named quotes confirming current employment. For recent_events, prioritize the company's own newsroom and press releases and reputable news within 180 days reporting dated business events (expansion, hiring, new offices/facilities, acquisitions, funding, partnerships, results); each must carry an explicit publication or event date. Do not substitute undated biographies, retrieval dates, copyright years or an after: query filter for an actual publication/event date. Use concise suggested query strings, not this entire instruction or JSON context as a search query. Discover actual public URLs; never invent profile paths. Prefer specific dated article and individual press-release pages over section, tag, index or listing pages, since a signal needs a substantive dated event statement, not a headline list. Research narration is not verified evidence. {\\\"prospect\\\": {\\\"designation\\\": \\\"President and Chief Executive Officer\\\", \\\"company_name\\\": \\\"Amazon\\\", \\\"prospect_name\\\": \\\"Andy Jassy\\\", \\\"company_website\\\": \\\"https://www.aboutamazon.com/\\\", \\\"product_service\\\": \\\"Recruitment process outsourcing and high-volume staffing services for enterprises scaling their workforce.\\\", \\\"value_proposition\\\": \\\"We help large employers that are expanding, opening new facilities or hiring at scale to fill roles faster and cheaper through managed recruitment, contingent staffing and workforce planning. Recent hiring drives, new warehouse or office openings and geographic expansion are strong signals of immediate staffing demand.\\\", \\\"today\\\": \\\"2026-11-26\\\", \\\"research_focus\\\": \\\"identity_then_events\\\", \\\"identity_gaps\\\": [], \\\"followup_focus\\\": null}, \\\"search_plan\\\": {\\\"focus\\\": \\\"identity_then_events\\\", \\\"suggested_queries\\\": [{\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"site:www.aboutamazon.com \\\\\\\"Andy Jassy\\\\\\\"\\\"}, {\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"\\\\\\\"Andy Jassy\\\\\\\" \\\\\\\"Amazon\\\\\\\" (leadership OR team OR biography)\\\"}, {\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"\\\\\\\"Andy Jassy\\\\\\\" \\\\\\\"Amazon\\\\\\\" (profile OR executive)\\\"}, {\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"\\\\\\\"Andy Jassy\\\\\\\" \\\\\\\"Amazon\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\") after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"events\\\", \\\"query\\\": \\\"site:www.aboutamazon.com (news OR newsroom OR \\\\\\\"press release\\\\\\\" OR announcement) after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"events\\\", \\\"query\\\": \\\"\\\\\\\"Amazon\\\\\\\" (expansion OR hiring OR \\\\\\\"new office\\\\\\\" OR facility OR acquisition OR merger OR funding OR investment OR partnership OR launch OR \\\\\\\"quarterly results\\\\\\\" OR earnings OR restructuring OR layoffs OR appointed OR opening) after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"events\\\", \\\"query\\\": \\\"\\\\\\\"Amazon\\\\\\\" (\\\\\\\"press release\\\\\\\" OR newsroom OR announced OR news) after:2026-05-30\\\"}]}}"
+      ],
+      "sources": [
+       {
+        "url": "https://ir.aboutamazon.com/officers-and-directors/default.aspx?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://en.wikipedia.org/wiki/Andy_Jassy?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://www.aboutamazon.com/news/workplace/amazon-s-team-members?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://press.aboutamazon.com/job-creation-and-investment/2026/9/amazon-to-create-300-high-paying-jobs-at-new-advanced-manufacturing-facility-in-greenwood-indiana?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://press.aboutamazon.com/2026/8/amazon-announces-new-manufacturing-facility-in-austin-texas?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://press.aboutamazon.com/2026/10/amazon-creates-over-300-000-new-u-s-jobs-this-holiday-season-with-increased-pay-and-expanded-benefits?trk=article-ssr-frontend-pulse_little-text-block&utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://d2dr22b2lm4tvw.cloudfront.net/md_dt/2026-08-06/front-page.pdf?utm_source=openai",
+        "type": "url"
+       }
+      ]
+     },
+     "status": "completed"
+    }
+   ],
+   "provider_request_id": "resp_0159316a6a7874e4006b08717d254887d0b3b7d68d9dc4b7a8"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 1558,
+    "total_tokens": 1619,
+    "output_tokens": 61,
+    "input_tokens_details": {
+     "cached_tokens": 1408,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 4778,
+   "provider_request_id": "resp_047aaac1544f9665006b08719f9b0887d08e73612197d21c5a"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 6082,
+    "total_tokens": 6330,
+    "output_tokens": 248,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 6864,
+   "provider_request_id": "resp_0c04f8f6e6bb0b3d006b08719f7cac87d0922789e0fedf2b06"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 2175,
+    "total_tokens": 2431,
+    "output_tokens": 256,
+    "input_tokens_details": {
+     "cached_tokens": 2048,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 10486,
+   "provider_request_id": "resp_0d7e79e3a078eeac006b08719f792487d0a1167eb66636d5f8"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "ExcerptSelection",
+   "usage": {
+    "input_tokens": 2379,
+    "total_tokens": 2466,
+    "output_tokens": 87,
+    "input_tokens_details": {
+     "cached_tokens": 2176,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 2226,
+   "provider_request_id": "resp_0496775e4e1a14f9006b0871a92fc087d098f2cd365dc7ee02"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "ExcerptSelection",
+   "usage": {
+    "input_tokens": 2553,
+    "total_tokens": 2725,
+    "output_tokens": 172,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 5698,
+   "provider_request_id": "resp_0a7809c8dd21d225006b0871a9363887d0961fd0ce1cb4ac7c"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 3402,
+    "total_tokens": 3812,
+    "output_tokens": 410,
+    "input_tokens_details": {
+     "cached_tokens": 3200,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 10925,
+   "provider_request_id": "resp_0ca23d8f8fa121a8006b0871a92b7887d0a88918156f789359"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 3046,
+    "total_tokens": 3515,
+    "output_tokens": 469,
+    "input_tokens_details": {
+     "cached_tokens": 2816,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 3383,
+   "provider_request_id": "resp_0258ad02d50e510b006b0871b0800887d0af9f0d9f748547ad"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 3819,
+    "total_tokens": 4339,
+    "output_tokens": 520,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 7596,
+   "provider_request_id": "resp_033b264b658843d4006b0871b0814087d0bce62e32a2dcf850"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 3306,
+    "total_tokens": 3806,
+    "output_tokens": 500,
+    "input_tokens_details": {
+     "cached_tokens": 3072,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 12428,
+   "provider_request_id": "resp_0650ac2ab7711673006b0871b07a5087d08baa077ca6e19685"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "ExcerptSelection",
+   "usage": {
+    "input_tokens": 2519,
+    "total_tokens": 2805,
+    "output_tokens": 286,
+    "input_tokens_details": {
+     "cached_tokens": 2304,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 5825,
+   "provider_request_id": "resp_02dd7df1de49ef1f006b0871b8160087d0ade5c26888346301"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "ExcerptSelection",
+   "usage": {
+    "input_tokens": 2610,
+    "total_tokens": 2713,
+    "output_tokens": 103,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 4075,
+   "provider_request_id": "resp_0f4768b6dd157f46006b0871bb4e5c87d0b6ffbc308c675d9b"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "ExcerptSelection",
+   "usage": {
+    "input_tokens": 2382,
+    "total_tokens": 2708,
+    "output_tokens": 326,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 4072,
+   "provider_request_id": "resp_023f2cbc5a1337b2006b0871bb4c3887d0a317a900469b6f3e"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "EvidenceReview",
+   "usage": {
+    "input_tokens": 3861,
+    "total_tokens": 5223,
+    "output_tokens": 1362,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 12060,
+   "provider_request_id": "resp_092fb819f7236e06006b0871cf48dc87d08dd501897dbb3866"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "research",
+   "usage": {
+    "input_tokens": 17916,
+    "total_tokens": 18971,
+    "output_tokens": 1055,
+    "input_tokens_details": {
+     "cached_tokens": 2688,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 10024,
+   "provider_request_id": "resp_09ab05af015db526006b0871e72f4c87d0a294d5191e6acb86"
+  },
+  {
+   "stage": "research",
+   "status": "tool_activity",
+   "tool_calls": [
+    {
+     "id": "ws_09ab05af015db526006b0871e75bd087d0b2d79eecc5fdc270",
+     "type": "web_search_call",
+     "action": {
+      "type": "search",
+      "query": "Prioritize this specific person's current official employer leadership, team or biography page, then company events within 180 days. Use the supplied query suggestions to disambiguate the person and employer. Do not restrict identity discovery to a literal user-entered title. An employer website is only a search hint; corroborate ownership and person/employer identity. For identity_recovery, focus this search on current primary identity evidence rather than repeating general company news. For employment_currentness, find recent dated employer announcements, appointments or named quotes confirming current employment. For recent_events, prioritize the company's own newsroom and press releases and reputable news within 180 days reporting dated business events (expansion, hiring, new offices/facilities, acquisitions, funding, partnerships, results); each must carry an explicit publication or event date. Do not substitute undated biographies, retrieval dates, copyright years or an after: query filter for an actual publication/event date. Use concise suggested query strings, not this entire instruction or JSON context as a search query. Discover actual public URLs; never invent profile paths. Prefer specific dated article and individual press-release pages over section, tag, index or listing pages, since a signal needs a substantive dated event statement, not a headline list. Research narration is not verified evidence. {\\\"prospect\\\": {\\\"company_name\\\": \\\"Amazon\\\", \\\"prospect_name\\\": \\\"Andy Jassy\\\", \\\"company_website\\\": \\\"https://www.aboutamazon.com/\\\", \\\"today\\\": \\\"2026-11-26\\\", \\\"research_focus\\\": \\\"employment_currentness\\\", \\\"identity_gaps\\\": [], \\\"followup_focus\\\": \\\"Find recent dated primary evidence of current employment; do not repeat undated biographies as current proof\\\"}, \\\"search_plan\\\": {\\\"focus\\\": \\\"employment_currentness\\\", \\\"suggested_queries\\\": [{\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"site:www.aboutamazon.com \\\\\\\"Andy Jassy\\\\\\\" \\\\\\\"Amazon\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\" OR quoted) after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"\\\\\\\"Andy Jassy\\\\\\\" \\\\\\\"Amazon\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\" OR quoted) after:2026-05-30\\\"}]}}",
+      "queries": [
+       "Prioritize this specific person's current official employer leadership, team or biography page, then company events within 180 days. Use the supplied query suggestions to disambiguate the person and employer. Do not restrict identity discovery to a literal user-entered title. An employer website is only a search hint; corroborate ownership and person/employer identity. For identity_recovery, focus this search on current primary identity evidence rather than repeating general company news. For employment_currentness, find recent dated employer announcements, appointments or named quotes confirming current employment. For recent_events, prioritize the company's own newsroom and press releases and reputable news within 180 days reporting dated business events (expansion, hiring, new offices/facilities, acquisitions, funding, partnerships, results); each must carry an explicit publication or event date. Do not substitute undated biographies, retrieval dates, copyright years or an after: query filter for an actual publication/event date. Use concise suggested query strings, not this entire instruction or JSON context as a search query. Discover actual public URLs; never invent profile paths. Prefer specific dated article and individual press-release pages over section, tag, index or listing pages, since a signal needs a substantive dated event statement, not a headline list. Research narration is not verified evidence. {\\\"prospect\\\": {\\\"company_name\\\": \\\"Amazon\\\", \\\"prospect_name\\\": \\\"Andy Jassy\\\", \\\"company_website\\\": \\\"https://www.aboutamazon.com/\\\", \\\"today\\\": \\\"2026-11-26\\\", \\\"research_focus\\\": \\\"employment_currentness\\\", \\\"identity_gaps\\\": [], \\\"followup_focus\\\": \\\"Find recent dated primary evidence of current employment; do not repeat undated biographies as current proof\\\"}, \\\"search_plan\\\": {\\\"focus\\\": \\\"employment_currentness\\\", \\\"suggested_queries\\\": [{\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"site:www.aboutamazon.com \\\\\\\"Andy Jassy\\\\\\\" \\\\\\\"Amazon\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\" OR quoted) after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"\\\\\\\"Andy Jassy\\\\\\\" \\\\\\\"Amazon\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\" OR quoted) after:2026-05-30\\\"}]}}"
+      ],
+      "sources": [
+       {
+        "url": "https://ir.aboutamazon.com/officers-and-directors/person-details/default.aspx?ItemId=be0a9875-4456-4f84-b4d9-ec2e4b97d1d8&utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://www.marketwizards.net/files/sec_forms_all/AMZN_2025-12-31_10-K.pdf?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://www.aboutamazon.com/news/tag/andy-jassy?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://gloom.sh/stocks/amzn/transcripts/q3-2026?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://pressroom.versantmedia.com/cnbc/press-releases/cnbc-exclusive-transcript-amazon-president-ceo-andy-jassy-speaks-cnbcs-scott?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://finance.yahoo.com/technology/ai/articles/amazon-ceo-says-us-ai-175032999.html?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://finance.yahoo.com/technology/ai/articles/andy-jassy-spend-meaningfully-more-165359435.html?utm_source=openai",
+        "type": "url"
+       }
+      ]
+     },
+     "status": "completed"
+    }
+   ],
+   "provider_request_id": "resp_09ab05af015db526006b0871e72f4c87d0a294d5191e6acb86"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 1757,
+    "total_tokens": 2048,
+    "output_tokens": 291,
+    "input_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 3181,
+   "provider_request_id": "resp_0778c3d54cc9160a006b08720cec5887d08bf61a04af5be6c8"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 1809,
+    "total_tokens": 2187,
+    "output_tokens": 378,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 5251,
+   "provider_request_id": "resp_02cd144d9bc83917006b08720d243487d0aec58bcc05e58e7e"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 4818,
+    "total_tokens": 5231,
+    "output_tokens": 413,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 6855,
+   "provider_request_id": "resp_0944e49401dd3ea7006b08720ce9e887d0bedc728a0f1addb3"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "ExcerptSelection",
+   "usage": {
+    "input_tokens": 1882,
+    "total_tokens": 1963,
+    "output_tokens": 81,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 5760,
+   "provider_request_id": "resp_0f6f67168405e288006b087217492487d0a870eb810f029312"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "EvidenceReview",
+   "usage": {
+    "input_tokens": 4905,
+    "total_tokens": 5820,
+    "output_tokens": 915,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 7764,
+   "provider_request_id": "resp_04e3459e8be12be9006b087223948887d0a7569648c4e7663e"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Candidates",
+   "usage": {
+    "input_tokens": 1091,
+    "total_tokens": 1382,
+    "output_tokens": 291,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 4092,
+   "provider_request_id": "resp_00d6cec8afd1a45d006b087246898c87d09afe0a3e7626b528"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "DraftContent",
+   "usage": {
+    "input_tokens": 1469,
+    "total_tokens": 1589,
+    "output_tokens": 120,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 2492,
+   "provider_request_id": "resp_0037d612ea8f8de5006b087259829887d0ad325e63caaa81bb"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Quality",
+   "usage": {
+    "input_tokens": 1401,
+    "total_tokens": 1482,
+    "output_tokens": 81,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 3112,
+   "provider_request_id": "resp_00fdb6d81975b6c7006b087265da8887d0baf192d234b1f180"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "DraftContent",
+   "usage": {
+    "input_tokens": 1505,
+    "total_tokens": 1643,
+    "output_tokens": 138,
+    "input_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 2645,
+   "provider_request_id": "resp_0f9ffd536c07da5a006b087276cf2087d0bbb75c6805553033"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Quality",
+   "usage": {
+    "input_tokens": 1417,
+    "total_tokens": 1462,
+    "output_tokens": 45,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 2233,
+   "provider_request_id": "resp_0353faf74980b6b9006b08728578e487d0a132ea214e3b280f"
+  }
+ ],
+ "signal_evaluation": {
+  "state": "evaluated",
+  "reason": null,
+  "gate_reasons": [],
+  "candidate_count": 2,
+  "eligible_count": 1,
+  "selected_signal_id": "sig_1",
+  "relevance_basis": "verified_company_context",
+  "excluded_role_claim_ids": [
+   "claim1",
+   "claim_1",
+   "claim_a989c4e877de20400f4cf41d",
+   "clm_001",
+   "clm_002"
+  ]
+ },
+ "research_diagnostics": {
+  "retrieval_attempts": [
+   {
+    "phase": "retrieval",
+    "followup": false,
+    "sources": [
+     {
+      "url": "https://ir.aboutamazon.com/officers-and-directors/default.aspx",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Andy_Jassy",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://www.aboutamazon.com/news/workplace/amazon-s-team-members",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://press.aboutamazon.com/job-creation-and-investment/2026/9/amazon-to-create-300-high-paying-jobs-at-new-advanced-manufacturing-facility-in-greenwood-indiana?trk=article-ssr-frontend-pulse_little-text-block",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://press.aboutamazon.com/2026/8/amazon-announces-new-manufacturing-facility-in-austin-texas",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://press.aboutamazon.com/2026/10/amazon-creates-over-300-000-new-u-s-jobs-this-holiday-season-with-increased-pay-and-expanded-benefits?trk=article-ssr-frontend-pulse_little-text-block",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf",
+      "available": false,
+      "error": "unsupported_source_type"
+     },
+     {
+      "url": "https://d2dr22b2lm4tvw.cloudfront.net/md_dt/2026-08-06/front-page.pdf",
+      "available": false,
+      "error": "http_403"
+     }
+    ],
+    "selected_urls": [
+     "https://ir.aboutamazon.com/officers-and-directors/default.aspx",
+     "https://en.wikipedia.org/wiki/Andy_Jassy",
+     "https://www.aboutamazon.com/news/workplace/amazon-s-team-members",
+     "https://press.aboutamazon.com/job-creation-and-investment/2026/9/amazon-to-create-300-high-paying-jobs-at-new-advanced-manufacturing-facility-in-greenwood-indiana?trk=article-ssr-frontend-pulse_little-text-block",
+     "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas",
+     "https://press.aboutamazon.com/2026/8/amazon-announces-new-manufacturing-facility-in-austin-texas",
+     "https://press.aboutamazon.com/2026/10/amazon-creates-over-300-000-new-u-s-jobs-this-holiday-season-with-increased-pay-and-expanded-benefits?trk=article-ssr-frontend-pulse_little-text-block"
+    ]
+   },
+   {
+    "phase": "retrieval",
+    "followup": true,
+    "sources": [
+     {
+      "url": "https://ir.aboutamazon.com/officers-and-directors/person-details/default.aspx?ItemId=be0a9875-4456-4f84-b4d9-ec2e4b97d1d8",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://www.marketwizards.net/files/sec_forms_all/AMZN_2025-12-31_10-K.pdf",
+      "available": false,
+      "error": "retrieval_timeout"
+     },
+     {
+      "url": "https://www.aboutamazon.com/news/tag/andy-jassy",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://gloom.sh/stocks/amzn/transcripts/q3-2026",
+      "available": false,
+      "error": "retrieval_timeout"
+     },
+     {
+      "url": "https://pressroom.versantmedia.com/cnbc/press-releases/cnbc-exclusive-transcript-amazon-president-ceo-andy-jassy-speaks-cnbcs-scott",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-ceo-says-us-ai-175032999.html",
+      "available": false,
+      "error": "http_404"
+     },
+     {
+      "url": "https://finance.yahoo.com/technology/ai/articles/andy-jassy-spend-meaningfully-more-165359435.html",
+      "available": false,
+      "error": "http_404"
+     }
+    ],
+    "selected_urls": [
+     "https://www.aboutamazon.com/news/workplace/amazon-s-team-members",
+     "https://press.aboutamazon.com/job-creation-and-investment/2026/9/amazon-to-create-300-high-paying-jobs-at-new-advanced-manufacturing-facility-in-greenwood-indiana?trk=article-ssr-frontend-pulse_little-text-block",
+     "https://ir.aboutamazon.com/officers-and-directors/person-details/default.aspx?ItemId=be0a9875-4456-4f84-b4d9-ec2e4b97d1d8",
+     "https://www.aboutamazon.com/news/tag/andy-jassy",
+     "https://pressroom.versantmedia.com/cnbc/press-releases/cnbc-exclusive-transcript-amazon-president-ceo-andy-jassy-speaks-cnbcs-scott",
+     "https://ir.aboutamazon.com/officers-and-directors/default.aspx",
+     "https://en.wikipedia.org/wiki/Andy_Jassy",
+     "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas",
+     "https://press.aboutamazon.com/2026/8/amazon-announces-new-manufacturing-facility-in-austin-texas",
+     "https://press.aboutamazon.com/2026/10/amazon-creates-over-300-000-new-u-s-jobs-this-holiday-season-with-increased-pay-and-expanded-benefits?trk=article-ssr-frontend-pulse_little-text-block"
+    ]
+   }
+  ],
+  "verification_attempts": [
+   {
+    "sources": [
+     {
+      "source_id": "src_59300359f77351b2250931a2",
+      "url": "https://ir.aboutamazon.com/officers-and-directors/default.aspx",
+      "accepted": false,
+      "reasons": [
+       "no_attributable_excerpt"
+      ],
+      "quality": null,
+      "fresh_signal_eligible": null,
+      "age_days": null,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_a590ad24d7bdf4d396d540e9",
+      "url": "https://en.wikipedia.org/wiki/Andy_Jassy",
+      "accepted": true,
+      "reasons": [],
+      "quality": 0.8,
+      "fresh_signal_eligible": false,
+      "age_days": null,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_d92cb4725bb801e429d3b93e",
+      "url": "https://www.aboutamazon.com/news/workplace/amazon-s-team-members",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": false,
+      "age_days": 1078,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_4ec260296e7aaebadfccce44",
+      "url": "https://press.aboutamazon.com/job-creation-and-investment/2026/9/amazon-to-create-300-high-paying-jobs-at-new-advanced-manufacturing-facility-in-greenwood-indiana?trk=article-ssr-frontend-pulse_little-text-block",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 63,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_0a68ecf19c64f49f34f61964",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 78,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_48f8107fb290e69448eba325",
+      "url": "https://press.aboutamazon.com/2026/8/amazon-announces-new-manufacturing-facility-in-austin-texas",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 99,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_15f7f690a78ac9f2b758b96b",
+      "url": "https://press.aboutamazon.com/2026/10/amazon-creates-over-300-000-new-u-s-jobs-this-holiday-season-with-increased-pay-and-expanded-benefits?trk=article-ssr-frontend-pulse_little-text-block",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 37,
+      "date_warnings": []
+     }
+    ],
+    "claims": [
+     {
+      "claim_id": "claim1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_a590ad24d7bdf4d396d540e9"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim2",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_a590ad24d7bdf4d396d540e9"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_3dd73ea890493f2773a17b36",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_d92cb4725bb801e429d3b93e"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "clm_0",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_4ec260296e7aaebadfccce44"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "clm_1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_4ec260296e7aaebadfccce44"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_47ef2812eb352ed686e5ce00",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_0a68ecf19c64f49f34f61964"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_688c32a8cc9d9aeb8ae1d18a",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_0a68ecf19c64f49f34f61964"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim3",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_0a68ecf19c64f49f34f61964"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim4",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_0a68ecf19c64f49f34f61964"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_1",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_48f8107fb290e69448eba325"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_2",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_48f8107fb290e69448eba325"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_3",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_48f8107fb290e69448eba325"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_4",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_48f8107fb290e69448eba325"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "c1",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_15f7f690a78ac9f2b758b96b"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim1",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified",
+       "designation_unverified"
+      ],
+      "original_source_ids": [],
+      "explanation": "The source states that Jeff Bezos is to step down as Amazon CEO and Andy Jassy is to take over in Q3, supporting the claim of a leadership transition. However, this refers to a future event at the time of the report, not current status.",
+      "designation_match": "unverified",
+      "current_role_verified": false
+     },
+     {
+      "claim_id": "claim_3dd73ea890493f2773a17b36",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified",
+       "current_role_requires_recent_dated_primary"
+      ],
+      "original_source_ids": [],
+      "explanation": "Andy Jassy is explicitly listed as 'President and CEO' in Amazon's official S-team member list, dated August 1, 2026, directly supporting the claim and matching the user's designation.",
+      "designation_match": "equivalent",
+      "current_role_verified": false
+     },
+     {
+      "claim_id": "clm_0",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [],
+      "explanation": "The source describes Amazon's investment and job creation in Greenwood, Indiana, but does not mention individual identities or roles.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_47ef2812eb352ed686e5ce00",
+      "eligible": false,
+      "reasons": [
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": "The claim regarding Amazon and Wiwynn's facility expansion is supported, but no person or CEO is mentioned.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_1",
+      "eligible": false,
+      "reasons": [
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": "The event about the new manufacturing facility is supported by the source, but it does not mention Andy Jassy or his role.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "c1",
+      "eligible": false,
+      "reasons": [
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": "Amazon's announcement about new jobs is supported, but it does not involve the identity or role of Andy Jassy.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim2",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified",
+       "designation_unverified"
+      ],
+      "original_source_ids": [],
+      "explanation": "Andy Jassy is referenced in Amazon Investor Relations as of June 18, 2026. The passage does not specify his designation, so the match to the user's hint is unverified and no confirmation of current role is stated.",
+      "designation_match": "unverified",
+      "current_role_verified": false
+     },
+     {
+      "claim_id": "clm_1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [],
+      "explanation": "The facility description and business context are supported, with no person-specific identity involved.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_688c32a8cc9d9aeb8ae1d18a",
+      "eligible": false,
+      "reasons": [
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": "The claim about the supply chain is supported, but does not pertain to Andy Jassy's role or identity.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim3",
+      "eligible": false,
+      "reasons": [
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": "The investment figure is supported, but not related to Andy Jassy's specific identity or role.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim4",
+      "eligible": false,
+      "reasons": [
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": "The number of employees in Texas is supported, but with no bearing on Andy Jassy's identity or role.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_2",
+      "eligible": false,
+      "reasons": [
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": "This investment detail is supported in the source but is not a person or role assertion.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_3",
+      "eligible": false,
+      "reasons": [
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": "The claim about extending Amazon's manufacturing presence is supported by the cited passage, but it is not person-related.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_4",
+      "eligible": false,
+      "reasons": [
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": "Amazon's commitment to Texas is supported, but the claim does not relate to any identity or role assertion.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     }
+    ],
+    "identity_confidence": "high",
+    "gate_outcome": null,
+    "gate_reasons": [],
+    "followup_requested": true,
+    "identity_checks": {
+     "prospect_identity": {
+      "status": "verified",
+      "claim_ids": [
+       "claim_3dd73ea890493f2773a17b36"
+      ],
+      "source_ids": [
+       "src_d92cb4725bb801e429d3b93e"
+      ],
+      "reasons": []
+     },
+     "company_association": {
+      "status": "verified",
+      "claim_ids": [
+       "claim_3dd73ea890493f2773a17b36"
+      ],
+      "source_ids": [
+       "src_d92cb4725bb801e429d3b93e"
+      ],
+      "reasons": []
+     },
+     "title_match": {
+      "status": "equivalent",
+      "claim_ids": [
+       "claim_3dd73ea890493f2773a17b36"
+      ],
+      "source_ids": [
+       "src_d92cb4725bb801e429d3b93e"
+      ],
+      "reasons": []
+     },
+     "role_currentness": {
+      "status": "unverified",
+      "claim_ids": [],
+      "source_ids": [],
+      "reasons": [
+       "role_currentness_unverified"
+      ]
+     },
+     "role_claim_ids": [
+      "claim1",
+      "claim2",
+      "claim_3dd73ea890493f2773a17b36"
+     ]
+    }
+   },
+   {
+    "sources": [
+     {
+      "source_id": "src_d92cb4725bb801e429d3b93e",
+      "url": "https://www.aboutamazon.com/news/workplace/amazon-s-team-members",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": false,
+      "age_days": 1078,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_4ec260296e7aaebadfccce44",
+      "url": "https://press.aboutamazon.com/job-creation-and-investment/2026/9/amazon-to-create-300-high-paying-jobs-at-new-advanced-manufacturing-facility-in-greenwood-indiana?trk=article-ssr-frontend-pulse_little-text-block",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 63,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_313e77c2151312c8e5798b52",
+      "url": "https://ir.aboutamazon.com/officers-and-directors/person-details/default.aspx?ItemId=be0a9875-4456-4f84-b4d9-ec2e4b97d1d8",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": false,
+      "age_days": null,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_ea544c9b544cd2312f59ab47",
+      "url": "https://www.aboutamazon.com/news/tag/andy-jassy",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 24,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_d2e2f07242487b9254c155bf",
+      "url": "https://pressroom.versantmedia.com/cnbc/press-releases/cnbc-exclusive-transcript-amazon-president-ceo-andy-jassy-speaks-cnbcs-scott",
+      "accepted": true,
+      "reasons": [],
+      "quality": 0.8,
+      "fresh_signal_eligible": true,
+      "age_days": 9,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_59300359f77351b2250931a2",
+      "url": "https://ir.aboutamazon.com/officers-and-directors/default.aspx",
+      "accepted": false,
+      "reasons": [
+       "no_attributable_excerpt"
+      ],
+      "quality": null,
+      "fresh_signal_eligible": null,
+      "age_days": null,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_a590ad24d7bdf4d396d540e9",
+      "url": "https://en.wikipedia.org/wiki/Andy_Jassy",
+      "accepted": true,
+      "reasons": [],
+      "quality": 0.8,
+      "fresh_signal_eligible": false,
+      "age_days": null,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_0a68ecf19c64f49f34f61964",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-wiwynn-data-center-manufacturing-jobs-texas",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 78,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_48f8107fb290e69448eba325",
+      "url": "https://press.aboutamazon.com/2026/8/amazon-announces-new-manufacturing-facility-in-austin-texas",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 99,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_15f7f690a78ac9f2b758b96b",
+      "url": "https://press.aboutamazon.com/2026/10/amazon-creates-over-300-000-new-u-s-jobs-this-holiday-season-with-increased-pay-and-expanded-benefits?trk=article-ssr-frontend-pulse_little-text-block",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 37,
+      "date_warnings": []
+     }
+    ],
+    "claims": [
+     {
+      "claim_id": "claim1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_d92cb4725bb801e429d3b93e"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "clm_0",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_4ec260296e7aaebadfccce44"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "clm_1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_4ec260296e7aaebadfccce44"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_313e77c2151312c8e5798b52"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_a989c4e877de20400f4cf41d",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_ea544c9b544cd2312f59ab47"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "clm_001",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_d2e2f07242487b9254c155bf"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "clm_002",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_d2e2f07242487b9254c155bf"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_6dbd2d2e74b2b898996610ca",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_a590ad24d7bdf4d396d540e9"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim2",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_a590ad24d7bdf4d396d540e9"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_47ef2812eb352ed686e5ce00",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_0a68ecf19c64f49f34f61964"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_688c32a8cc9d9aeb8ae1d18a",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_0a68ecf19c64f49f34f61964"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim3",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_0a68ecf19c64f49f34f61964"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim4",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_0a68ecf19c64f49f34f61964"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_f527fa3284b86199df37b9dc",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_48f8107fb290e69448eba325"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_2",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_48f8107fb290e69448eba325"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_3",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_48f8107fb290e69448eba325"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_4",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_48f8107fb290e69448eba325"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "c1",
+      "eligible": false,
+      "reasons": [],
+      "original_source_ids": [
+       "src_15f7f690a78ac9f2b758b96b"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim1",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified",
+       "current_role_requires_recent_dated_primary"
+      ],
+      "original_source_ids": [],
+      "explanation": "Amazon's official S-team list published August 1, 2026, explicitly lists Andy Jassy as 'President and CEO', directly matching and supporting the specified designation and confirming current role at Amazon.",
+      "designation_match": "equivalent",
+      "current_role_verified": false
+     },
+     {
+      "claim_id": "clm_0",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [],
+      "explanation": "The passage substantiates Amazon's investment and job creation event, but is unrelated to Andy Jassy's identity.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_1",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified"
+      ],
+      "original_source_ids": [],
+      "explanation": "The passage describes Andy Jassy as 'President and CEO of Amazon.com', matching the required designation, but the source is undated, so cannot confirm current employment.",
+      "designation_match": "equivalent",
+      "current_role_verified": false
+     },
+     {
+      "claim_id": "claim_a989c4e877de20400f4cf41d",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified",
+       "current_role_requires_recent_dated_primary"
+      ],
+      "original_source_ids": [],
+      "explanation": "'Amazon CEO Andy Jassy' is used in coverage of news on Nov. 4, 2026, corroborating the functional designation and confirming current identity.",
+      "designation_match": "equivalent",
+      "current_role_verified": false
+     },
+     {
+      "claim_id": "clm_001",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified",
+       "current_role_requires_recent_dated_primary"
+      ],
+      "original_source_ids": [],
+      "explanation": "CNBC refers to Andy Jassy as 'President & CEO of Amazon' in a transcript and event on November 17, 2026. This date is recent and source is reputable, confirming current role.",
+      "designation_match": "equivalent",
+      "current_role_verified": false
+     },
+     {
+      "claim_id": "clm_002",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified",
+       "current_role_requires_recent_dated_primary",
+       "designation_unverified"
+      ],
+      "original_source_ids": [],
+      "explanation": "The transcript summary affirms Andy Jassy appeared as President & CEO on Nov. 17, 2026, confirming both identity and recency.",
+      "designation_match": "unverified",
+      "current_role_verified": false
+     },
+     {
+      "claim_id": "claim_6dbd2d2e74b2b898996610ca",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [],
+      "explanation": "This claim concerns succession in 2021, not current identity. It establishes historical context but is not evidence for a 2026 role.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_47ef2812eb352ed686e5ce00",
+      "eligible": false,
+      "reasons": [
+       "missing_or_ambiguous_assessment",
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": null,
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_f527fa3284b86199df37b9dc",
+      "eligible": false,
+      "reasons": [
+       "missing_or_ambiguous_assessment",
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": null,
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "c1",
+      "eligible": false,
+      "reasons": [
+       "missing_or_ambiguous_assessment",
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": null,
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "clm_1",
+      "eligible": false,
+      "reasons": [
+       "missing_or_ambiguous_assessment"
+      ],
+      "original_source_ids": [],
+      "explanation": null,
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim2",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [],
+      "explanation": "Wikipedia cites Amazon Investor Relations as of June 18, 2026, listing Andy Jassy, consistent with identity and role but not conclusive for currentness after that date.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_688c32a8cc9d9aeb8ae1d18a",
+      "eligible": false,
+      "reasons": [
+       "missing_or_ambiguous_assessment",
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": null,
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim3",
+      "eligible": false,
+      "reasons": [
+       "missing_or_ambiguous_assessment",
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": null,
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim4",
+      "eligible": false,
+      "reasons": [
+       "missing_or_ambiguous_assessment",
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": null,
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_2",
+      "eligible": false,
+      "reasons": [
+       "missing_or_ambiguous_assessment",
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": null,
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_3",
+      "eligible": false,
+      "reasons": [
+       "missing_or_ambiguous_assessment",
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": null,
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_4",
+      "eligible": false,
+      "reasons": [
+       "missing_or_ambiguous_assessment",
+       "entity_mismatch"
+      ],
+      "original_source_ids": [],
+      "explanation": null,
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     }
+    ],
+    "identity_confidence": "high",
+    "gate_outcome": null,
+    "gate_reasons": [],
+    "followup_requested": false,
+    "identity_checks": {
+     "prospect_identity": {
+      "status": "verified",
+      "claim_ids": [
+       "claim1",
+       "claim_a989c4e877de20400f4cf41d"
+      ],
+      "source_ids": [
+       "src_d92cb4725bb801e429d3b93e",
+       "src_ea544c9b544cd2312f59ab47"
+      ],
+      "reasons": []
+     },
+     "company_association": {
+      "status": "verified",
+      "claim_ids": [
+       "claim1",
+       "claim_a989c4e877de20400f4cf41d"
+      ],
+      "source_ids": [
+       "src_d92cb4725bb801e429d3b93e",
+       "src_ea544c9b544cd2312f59ab47"
+      ],
+      "reasons": []
+     },
+     "title_match": {
+      "status": "equivalent",
+      "claim_ids": [
+       "claim1",
+       "claim_1",
+       "claim_a989c4e877de20400f4cf41d",
+       "clm_001"
+      ],
+      "source_ids": [
+       "src_313e77c2151312c8e5798b52",
+       "src_d2e2f07242487b9254c155bf",
+       "src_d92cb4725bb801e429d3b93e",
+       "src_ea544c9b544cd2312f59ab47"
+      ],
+      "reasons": []
+     },
+     "role_currentness": {
+      "status": "unverified",
+      "claim_ids": [],
+      "source_ids": [],
+      "reasons": [
+       "role_currentness_unverified"
+      ]
+     },
+     "role_claim_ids": [
+      "claim1",
+      "claim_1",
+      "claim_a989c4e877de20400f4cf41d",
+      "clm_001",
+      "clm_002"
+     ]
+    }
+   }
+  ]
+ }
+}

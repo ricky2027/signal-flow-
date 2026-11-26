@@ -1,0 +1,25 @@
+{
+  "frontend-unit": {
+    "passed": 11,
+    "failed": 0
+  },
+  "frontend-security": {
+    "passed": 3,
+    "failed": 0
+  },
+  "frontend-integration": {
+    "passed": 3,
+    "failed": 0
+  },
+  "frontend-dom": {
+    "passed": 1,
+    "failed": 0
+  },
+  "backend": {
+    "passed": 82,
+    "skipped": 1
+  },
+  "typescript": "passed",
+  "historical_export": "inspected",
+  "new_live_research": "not_executed"
+}

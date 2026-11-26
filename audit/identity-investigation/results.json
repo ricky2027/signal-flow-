@@ -1,0 +1,27 @@
+{
+  "frontend-unit": {
+    "passed": 11,
+    "failed": 0
+  },
+  "frontend-security": {
+    "passed": 3,
+    "failed": 0
+  },
+  "frontend-integration": {
+    "passed": 3,
+    "failed": 0
+  },
+  "frontend-dom": {
+    "passed": 1,
+    "failed": 0
+  },
+  "backend": {
+    "passed": 76,
+    "skipped": 1
+  },
+  "typescript": "passed",
+  "production_build": "passed (isolated copy)",
+  "target_run_inspection": "blocked: Neon DNS resolution failure",
+  "target_urls": "unknown; export requested",
+  "new_live_research": "not executed"
+}

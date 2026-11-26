@@ -1,0 +1,14 @@
+{
+  "api": {
+    "exit_code": 1,
+    "running": false
+  },
+  "worker": {
+    "exit_code": 1,
+    "running": false
+  },
+  "frontend": {
+    "exit_code": 1,
+    "running": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "signalflow-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1",
+    "build": "next build --webpack",
+    "start": "next start -H 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/unit.test.ts tests/research-display.test.ts",
+    "test:e2e": "npm --prefix browser-tests test --",
+    "types:generate": "python3 scripts/generate-types.py",
+    "test:integration": "node --import tsx --test tests/integration.test.ts",
+    "test:dom": "node --import tsx --test tests/dom.test.ts",
+    "security:upgrade": "node scripts/upgrade-security.mjs",
+    "security:check": "node scripts/check-security.mjs",
+    "test:security": "node --import tsx --test tests/security.test.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "1.1.2",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "0.456.0",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwind-merge": "2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "autoprefixer": "10.4.21",
+    "jsdom": "^29.1.1",
+    "postcss": "8.5.33",
+    "tailwindcss": "3.4.17",
+    "tsx": "4.22.4",
+    "typescript": "5.8.3"
+  },
+  "overrides": {
+    "esbuild": "0.28.0",
+    "postcss": "$postcss"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

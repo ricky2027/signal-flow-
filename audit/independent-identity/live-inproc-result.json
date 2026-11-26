@@ -1,0 +1,259 @@
+{
+ "input": {
+  "prospect_name": "Pete Hamilton",
+  "company_name": "KellyOCG",
+  "designation": "Vice President and Managing Director, APAC",
+  "company_website": "https://www.kellyocg.com/",
+  "product_service": "AI-powered B2B sales intelligence and personalised outreach automation platform.",
+  "value_proposition": "Helps B2B sales and business development teams at workforce solutions companies identify prospective enterprise clients using verified public business signals such as:\n- Geographic expansion\n- Hiring activity\n- New facility openings\n- Changing workforce requirements\nIt automates prospect research and generates personalised outreach drafts, helping teams prioritise promising accounts and identify potential demand for recruitment, staffing and outsourcing services."
+ },
+ "outcome": "no_relevant_signal",
+ "outcome_reason": "no_relevant_signal",
+ "evaluation_state": "evaluated",
+ "identity_confidence": "high",
+ "material_identity_conflict": false,
+ "identity_checks": {
+  "prospect_identity": {
+   "status": "verified",
+   "claim_ids": [
+    "c1",
+    "clm1",
+    "claim_a7b1dffdc2131ef1974ebf26"
+   ],
+   "source_ids": [
+    "src_359daa325de526a6527fa1c9",
+    "src_6262df190626ae19c63d135b",
+    "src_8f9d3c6c110ff444e45dbeb7",
+    "src_bf1d7e13e307f4fe5ccf50c8"
+   ],
+   "reasons": []
+  },
+  "company_association": {
+   "status": "verified",
+   "claim_ids": [
+    "c1",
+    "clm1",
+    "claim_a7b1dffdc2131ef1974ebf26"
+   ],
+   "source_ids": [
+    "src_359daa325de526a6527fa1c9",
+    "src_6262df190626ae19c63d135b",
+    "src_8f9d3c6c110ff444e45dbeb7",
+    "src_bf1d7e13e307f4fe5ccf50c8"
+   ],
+   "reasons": []
+  },
+  "title_match": {
+   "status": "equivalent",
+   "claim_ids": [
+    "c1",
+    "claim_a7b1dffdc2131ef1974ebf26",
+    "clm1"
+   ],
+   "source_ids": [
+    "src_359daa325de526a6527fa1c9",
+    "src_6262df190626ae19c63d135b",
+    "src_8f9d3c6c110ff444e45dbeb7",
+    "src_bf1d7e13e307f4fe5ccf50c8"
+   ],
+   "reasons": []
+  },
+  "role_currentness": {
+   "status": "unverified",
+   "claim_ids": [],
+   "source_ids": [],
+   "reasons": [
+    "role_currentness_unverified"
+   ]
+  },
+  "role_claim_ids": [
+   "c1",
+   "claim_a7b1dffdc2131ef1974ebf26",
+   "clm1"
+  ]
+ },
+ "sources": [
+  {
+   "id": "src_6262df190626ae19c63d135b",
+   "url": "https://www.kellyocg.com/about-us/leadership/pete-hamilton/",
+   "type": "primary",
+   "date_basis": "unknown",
+   "published_at": null
+  },
+  {
+   "id": "src_8f9d3c6c110ff444e45dbeb7",
+   "url": "https://www.kellyocg.com/about-us/leadership/",
+   "type": "primary",
+   "date_basis": "unknown",
+   "published_at": null
+  },
+  {
+   "id": "src_359daa325de526a6527fa1c9",
+   "url": "https://www.kellyservices.com/divisions/outsourcing-consulting-group/about/",
+   "type": "primary",
+   "date_basis": "unknown",
+   "published_at": null
+  },
+  {
+   "id": "src_bf1d7e13e307f4fe5ccf50c8",
+   "url": "https://www.kellyocg.com/en-sg/",
+   "type": "primary",
+   "date_basis": "unknown",
+   "published_at": null
+  },
+  {
+   "id": "src_11e730950d80480bd8bfca71",
+   "url": "https://au.linkedin.com/in/peterhamilton1",
+   "type": "primary",
+   "date_basis": "unknown",
+   "published_at": null
+  }
+ ],
+ "claims": [
+  {
+   "id": "c1",
+   "kind": "identity",
+   "verification": "supported",
+   "entity_match": true,
+   "text": "Pete Hamilton is vice president and managing director, APAC region, of KellyOCG."
+  },
+  {
+   "id": "clm1",
+   "kind": "identity",
+   "verification": "supported",
+   "entity_match": true,
+   "text": "Pete Hamilton is Vice President and Managing Director, APAC at KellyOCG."
+  },
+  {
+   "id": "claim_a7b1dffdc2131ef1974ebf26",
+   "kind": "identity",
+   "verification": "supported",
+   "entity_match": true,
+   "text": "Pete Hamilton is Vice President and Managing Director at KellyOCG."
+  },
+  {
+   "id": "c2",
+   "kind": "context",
+   "verification": "supported",
+   "entity_match": false,
+   "text": "KellyOCG is a leading global advisor of talent supply chain strategies and the outsourcing and consulting practice of Ke"
+  },
+  {
+   "id": "claim_c75191e18a92ad851f02b091",
+   "kind": "context",
+   "verification": "supported",
+   "entity_match": false,
+   "text": "Peter Hamilton has 6,000 followers on LinkedIn."
+  },
+  {
+   "id": "claim_98c172fa7e5a599b93ccf557",
+   "kind": "context",
+   "verification": "supported",
+   "entity_match": false,
+   "text": "Peter Hamilton recently posted on LinkedIn about Pacific Talent shortages being a major concern for businesses in the As"
+  }
+ ],
+ "signal_evaluation": {
+  "state": "evaluated",
+  "reason": "no_relevant_signal",
+  "gate_reasons": [],
+  "candidate_count": 1,
+  "eligible_count": 0,
+  "selected_signal_id": null,
+  "relevance_basis": "verified_company_context",
+  "excluded_role_claim_ids": [
+   "c1",
+   "claim_a7b1dffdc2131ef1974ebf26",
+   "clm1"
+  ]
+ },
+ "signals": [
+  {
+   "id": "kellyocg_signal_1",
+   "score": 40,
+   "eligible": false,
+   "rejection_reasons": [
+    "unsupported_event",
+    "unknown_date",
+    "weak_source_quality",
+    "below_threshold"
+   ],
+   "relevance_basis": "verified_company_context"
+  }
+ ],
+ "draft": null,
+ "warnings": [
+  "No source contains a publication or event date; all identity and company association inferences are undated and may not reflect current reality.",
+  "role_currentness_unverified_role_claims_excluded"
+ ],
+ "provider_calls": [
+  {
+   "stage": "research",
+   "status": "completed"
+  },
+  {
+   "stage": "research",
+   "status": "tool_activity"
+  },
+  {
+   "stage": "Evidence",
+   "status": "completed"
+  },
+  {
+   "stage": "Evidence",
+   "status": "completed"
+  },
+  {
+   "stage": "Evidence",
+   "status": "completed"
+  },
+  {
+   "stage": "ExcerptSelection",
+   "status": "completed"
+  },
+  {
+   "stage": "ExcerptSelection",
+   "status": "completed"
+  },
+  {
+   "stage": "ExcerptSelection",
+   "status": "completed"
+  },
+  {
+   "stage": "Evidence",
+   "status": "completed"
+  },
+  {
+   "stage": "ExcerptSelection",
+   "status": "completed"
+  },
+  {
+   "stage": "EvidenceReview",
+   "status": "completed"
+  },
+  {
+   "stage": "research",
+   "status": "completed"
+  },
+  {
+   "stage": "research",
+   "status": "tool_activity"
+  },
+  {
+   "stage": "Evidence",
+   "status": "completed"
+  },
+  {
+   "stage": "ExcerptSelection",
+   "status": "completed"
+  },
+  {
+   "stage": "EvidenceReview",
+   "status": "completed"
+  },
+  {
+   "stage": "Candidates",
+   "status": "completed"
+  }
+ ]
+}

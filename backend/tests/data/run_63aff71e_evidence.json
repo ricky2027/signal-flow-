@@ -1,0 +1,119 @@
+{
+  "note": "Frozen actual retained evidence; does not reconstruct rejected biography quotations.",
+  "run_id": "63aff71e-b455-4fc6-86cf-4d7095edf719",
+  "website": null,
+  "evidence": {
+    "claims": [
+      {
+        "id": "claim_1",
+        "kind": "identity",
+        "text": "Pete Hamilton is Vice President and Managing Director, APAC at KellyOCG.",
+        "source_ids": [
+          "src_8f9d3c6c110ff444e45dbeb7"
+        ],
+        "entity_match": true,
+        "verification": "supported",
+        "conflict_group": null
+      },
+      {
+        "id": "claim_001",
+        "kind": "identity",
+        "text": "Pete Hamilton is Vice President and Managing Director at KellyOCG.",
+        "source_ids": [
+          "src_bf1d7e13e307f4fe5ccf50c8"
+        ],
+        "entity_match": true,
+        "verification": "supported",
+        "conflict_group": null
+      },
+      {
+        "id": "claim_01",
+        "kind": "identity",
+        "text": "Peter Hamilton is referred to as APAC MD at KellyOCG.",
+        "source_ids": [
+          "src_11e730950d80480bd8bfca71"
+        ],
+        "entity_match": true,
+        "verification": "supported",
+        "conflict_group": null
+      },
+      {
+        "id": "clm_01",
+        "kind": "context",
+        "text": "KellyOCG has a team with members in Australia, Malaysia, India, Singapore, North America, Europe, Middle East, and Africa.",
+        "source_ids": [
+          "src_58fdababd8dfd1ac3d74747f"
+        ],
+        "entity_match": false,
+        "verification": "supported",
+        "conflict_group": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "src_8f9d3c6c110ff444e45dbeb7",
+        "url": "https://www.kellyocg.com/about-us/leadership/",
+        "title": "Meet the leadership team | KellyOCG",
+        "passage": "Leadership Team Pete Hamilton Vice President and Managing Director, APAC Learn more about Pete Paul Harty Vice President, Global RPO Solutions Learn more about Paul Keilon Ratliff President, Staffing, BPO & RPO Solutions Learn more about Keilon Hasit Raval Vice President, EMEA Learn more about Hasit Debra Timmerman President, Global MSP Solutions Learn more about Debra Matt Yeager President, Enterprise Sales Learn more about Matt",
+        "planned": false,
+        "event_at": null,
+        "publisher": "KellyOCG",
+        "date_basis": "unknown",
+        "source_type": "primary",
+        "origin_group": "kellyocg.com",
+        "published_at": null
+      },
+      {
+        "id": "src_bf1d7e13e307f4fe5ccf50c8",
+        "url": "https://www.kellyocg.com/en-sg/",
+        "title": "KellyOCG Singapore | Honestly better workforce solutions and expertise",
+        "passage": "Meet the team Pete Hamilton Vice President and Managing Director, KellyOCG More about Pete",
+        "planned": false,
+        "event_at": null,
+        "publisher": "KellyOCG",
+        "date_basis": "unknown",
+        "source_type": "primary",
+        "origin_group": "Kelly Services Inc",
+        "published_at": null
+      },
+      {
+        "id": "src_11e730950d80480bd8bfca71",
+        "url": "https://au.linkedin.com/in/peterhamilton1",
+        "title": "Peter Hamilton - KellyOCG | LinkedIn",
+        "passage": "A memorable week celebrating milestones, leadership and the future of work! It was a privilege to welcome our CEO, Chris Layden , and APAC MD, Peter Hamilton , to India. Celebrating 80 years of Kelly alongside the inauguration of our new Bengaluru office made the occasion even more meaningful. A proud moment in our journey as One Kelly!",
+        "planned": false,
+        "event_at": null,
+        "publisher": "LinkedIn",
+        "date_basis": "unknown",
+        "source_type": "reporting",
+        "origin_group": "linkedin",
+        "published_at": null
+      },
+      {
+        "id": "src_58fdababd8dfd1ac3d74747f",
+        "url": "https://www.kellyocg.com/Insights",
+        "title": "Insights, case studies, and thought leadership | KellyOCG",
+        "passage": "Leadership team News center Recognitions Supplier community Connecting you with talented people to fuel your growth is the center of all we do. Meet our team Australia Malaysia India Singapore North America Europe, Middle East, Africa",
+        "planned": false,
+        "event_at": null,
+        "publisher": "KellyOCG",
+        "date_basis": "unknown",
+        "source_type": "primary",
+        "origin_group": "kellyocg.com",
+        "published_at": null
+      }
+    ],
+    "warnings": [
+      "https://www.linkedin.com/company/kellyocg/?hss_channel=lcp-207796%23nofluffform%23nofluffform%23nofluffform%23%23nofluffform%23%23%23%23nofluffform%23nofluffform%23%23nofluffform%23nofluffform%23%23nofluffform%23%23%23nofluffform: No source evidence found for title 'Vice President and Managing Director, APAC' or for the APAC region. Peter Hamilton is only listed as a member of the Australia and New Zealand team. No current or specific title for Peter Hamilton is stated in the supplied content.",
+      "https://www.kellyservices.com/press-releases/all: No mention or confirmation of Pete Hamilton, KellyOCG, or their leadership roles was found in the provided press release listings or explicitly in the available passages.",
+      "https://www.kellyocg.com/Insights: No explicit mention of Pete Hamilton or his role found on the supplied page.",
+      "https://www.kellyocg.com/Insights: No direct evidence for Vice President and Managing Director, APAC at KellyOCG.",
+      "No explicit evidence was provided showing the role is currently held by Pete Hamilton\u2014leadership listing is undated.",
+      "Role regional scope differs slightly between sources (some say APAC, some do not specify region).",
+      "No source provides a date or a recent, authoritative confirmation of current title.",
+      "current_identity_not_verified"
+    ],
+    "identity_confidence": "low",
+    "material_identity_conflict": false
+  }
+}

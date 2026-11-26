@@ -1,0 +1,770 @@
+{
+ "id": "30f64595-2197-4c70-91a1-b03a5c1f6527",
+ "prospect_name": "Satya Nadella",
+ "company_name": "Microsoft",
+ "status": "running",
+ "stage": "qualify_evidence",
+ "created_at": "2026-11-26T16:30:16.058930Z",
+ "finished_at": null,
+ "outcome_reason": null,
+ "input": {
+  "prospect_name": "Satya Nadella",
+  "company_name": "Microsoft",
+  "designation": "Chairman and Chief Executive Officer",
+  "company_website": "https://www.microsoft.com/",
+  "product_service": "AI-powered B2B sales intelligence and personalised outreach automation platform.",
+  "value_proposition": "Helps B2B sales teams identify enterprise prospects using verified public business signals such as geographic expansion, hiring activity, new facility openings and changing workforce requirements, then drafts personalised outreach."
+ },
+ "prospect_id": "b6e635b3-45c6-4022-92db-95ed207683b5",
+ "parent_run_id": null,
+ "warnings": [],
+ "error": null,
+ "current_draft_id": null,
+ "sources": [],
+ "claims": [],
+ "identity_confidence": null,
+ "identity_checks": null,
+ "signals": [],
+ "drafts": [],
+ "reviews": [],
+ "policy_version": "v2-independent-identity",
+ "model_versions": {
+  "prompt": "v1",
+  "research": "gpt-4.1",
+  "reasoning": "gpt-4.1"
+ },
+ "provider_calls": [
+  {
+   "model": "gpt-4.1",
+   "stage": "research",
+   "usage": {
+    "input_tokens": 17797,
+    "total_tokens": 18502,
+    "output_tokens": 705,
+    "input_tokens_details": {
+     "cached_tokens": 2688,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 10880,
+   "provider_request_id": "resp_003e1e23e5ccdcc5006b085eac161087d0ae20b6e934142298"
+  },
+  {
+   "stage": "research",
+   "status": "tool_activity",
+   "tool_calls": [
+    {
+     "id": "ws_003e1e23e5ccdcc5006b085eac785887d09b1d114ef9d7ad13",
+     "type": "web_search_call",
+     "action": {
+      "type": "search",
+      "query": "Prioritize this specific person's current official employer leadership, team or biography page, then company events within 180 days. Use the supplied query suggestions to disambiguate the person and employer. Do not restrict identity discovery to a literal user-entered title. An employer website is only a search hint; corroborate ownership and person/employer identity. For identity_recovery, focus this search on current primary identity evidence rather than repeating general company news. For employment_currentness, find recent dated employer announcements, appointments or named quotes confirming current employment. Do not substitute undated biographies, retrieval dates, copyright years or an after: query filter for an actual publication/event date. Use concise suggested query strings, not this entire instruction or JSON context as a search query. Discover actual public URLs; never invent profile paths. Research narration is not verified evidence. {\\\"prospect\\\": {\\\"designation\\\": \\\"Chairman and Chief Executive Officer\\\", \\\"company_name\\\": \\\"Microsoft\\\", \\\"prospect_name\\\": \\\"Satya Nadella\\\", \\\"company_website\\\": \\\"https://www.microsoft.com/\\\", \\\"product_service\\\": \\\"AI-powered B2B sales intelligence and personalised outreach automation platform.\\\", \\\"value_proposition\\\": \\\"Helps B2B sales teams identify enterprise prospects using verified public business signals such as geographic expansion, hiring activity, new facility openings and changing workforce requirements, then drafts personalised outreach.\\\", \\\"today\\\": \\\"2026-11-26\\\", \\\"research_focus\\\": \\\"identity_then_events\\\", \\\"identity_gaps\\\": [], \\\"followup_focus\\\": null}, \\\"search_plan\\\": {\\\"focus\\\": \\\"identity_then_events\\\", \\\"suggested_queries\\\": [{\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"site:www.microsoft.com \\\\\\\"Satya Nadella\\\\\\\"\\\"}, {\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"\\\\\\\"Satya Nadella\\\\\\\" \\\\\\\"Microsoft\\\\\\\" (leadership OR team OR biography)\\\"}, {\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"\\\\\\\"Satya Nadella\\\\\\\" \\\\\\\"Microsoft\\\\\\\" (profile OR executive)\\\"}, {\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"\\\\\\\"Satya Nadella\\\\\\\" \\\\\\\"Microsoft\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\") after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"events\\\", \\\"query\\\": \\\"\\\\\\\"Microsoft\\\\\\\" recent company announcements news\\\"}]}}",
+      "queries": [
+       "Prioritize this specific person's current official employer leadership, team or biography page, then company events within 180 days. Use the supplied query suggestions to disambiguate the person and employer. Do not restrict identity discovery to a literal user-entered title. An employer website is only a search hint; corroborate ownership and person/employer identity. For identity_recovery, focus this search on current primary identity evidence rather than repeating general company news. For employment_currentness, find recent dated employer announcements, appointments or named quotes confirming current employment. Do not substitute undated biographies, retrieval dates, copyright years or an after: query filter for an actual publication/event date. Use concise suggested query strings, not this entire instruction or JSON context as a search query. Discover actual public URLs; never invent profile paths. Research narration is not verified evidence. {\\\"prospect\\\": {\\\"designation\\\": \\\"Chairman and Chief Executive Officer\\\", \\\"company_name\\\": \\\"Microsoft\\\", \\\"prospect_name\\\": \\\"Satya Nadella\\\", \\\"company_website\\\": \\\"https://www.microsoft.com/\\\", \\\"product_service\\\": \\\"AI-powered B2B sales intelligence and personalised outreach automation platform.\\\", \\\"value_proposition\\\": \\\"Helps B2B sales teams identify enterprise prospects using verified public business signals such as geographic expansion, hiring activity, new facility openings and changing workforce requirements, then drafts personalised outreach.\\\", \\\"today\\\": \\\"2026-11-26\\\", \\\"research_focus\\\": \\\"identity_then_events\\\", \\\"identity_gaps\\\": [], \\\"followup_focus\\\": null}, \\\"search_plan\\\": {\\\"focus\\\": \\\"identity_then_events\\\", \\\"suggested_queries\\\": [{\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"site:www.microsoft.com \\\\\\\"Satya Nadella\\\\\\\"\\\"}, {\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"\\\\\\\"Satya Nadella\\\\\\\" \\\\\\\"Microsoft\\\\\\\" (leadership OR team OR biography)\\\"}, {\\\"purpose\\\": \\\"identity\\\", \\\"query\\\": \\\"\\\\\\\"Satya Nadella\\\\\\\" \\\\\\\"Microsoft\\\\\\\" (profile OR executive)\\\"}, {\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"\\\\\\\"Satya Nadella\\\\\\\" \\\\\\\"Microsoft\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\") after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"events\\\", \\\"query\\\": \\\"\\\\\\\"Microsoft\\\\\\\" recent company announcements news\\\"}]}}"
+      ],
+      "sources": [
+       {
+        "url": "https://www.microsoft.com/investor/reports/ar26/?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/latest-from-satya?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://www.techradar.com/pro/microsoft-declared-an-internal-code-red-after-historic-m365-outage-notes-our-work-doesnt-end-when-service-is-restored?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://www.techradar.com/pro/security/remember-there-is-a-lot-of-stuff-in-our-critical-infrastructure-thats-unpatchable-microsoft-ceo-satya-nadella-warns-more-outages-of-key-networks-could-be-coming?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://www.axios.com/2026/10/09/trump-microsoft-immigration-tech?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://apnews.com/article/f7dff4fb9d51a2bdec56a13e5da1053d?utm_source=openai",
+        "type": "url"
+       }
+      ]
+     },
+     "status": "completed"
+    }
+   ],
+   "provider_request_id": "resp_003e1e23e5ccdcc5006b085eac161087d0ae20b6e934142298"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 2202,
+    "total_tokens": 2496,
+    "output_tokens": 294,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 5373,
+   "provider_request_id": "resp_04644f6b5730f6f0006b085ed1899887d08be802dd91044996"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "ExcerptSelection",
+   "usage": {
+    "input_tokens": 2158,
+    "total_tokens": 2242,
+    "output_tokens": 84,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 3159,
+   "provider_request_id": "resp_096b835aa180bfda006b085ed8519487d088491f96fb54b09f"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "EvidenceReview",
+   "usage": {
+    "input_tokens": 1462,
+    "total_tokens": 1648,
+    "output_tokens": 186,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 6008,
+   "provider_request_id": "resp_0dc65d23d8641050006b085eeb24a087d0b43fd92c7627a7a1"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "research",
+   "usage": {
+    "input_tokens": 17788,
+    "total_tokens": 18611,
+    "output_tokens": 823,
+    "input_tokens_details": {
+     "cached_tokens": 2560,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 7841,
+   "provider_request_id": "resp_0493ef25b9845458006b085f078c3487d0b43a1a0dfd11ba5e"
+  },
+  {
+   "stage": "research",
+   "status": "tool_activity",
+   "tool_calls": [
+    {
+     "id": "ws_0493ef25b9845458006b085f07b63087d0b0e7f4cd6e12606b",
+     "type": "web_search_call",
+     "action": {
+      "type": "search",
+      "query": "Prioritize this specific person's current official employer leadership, team or biography page, then company events within 180 days. Use the supplied query suggestions to disambiguate the person and employer. Do not restrict identity discovery to a literal user-entered title. An employer website is only a search hint; corroborate ownership and person/employer identity. For identity_recovery, focus this search on current primary identity evidence rather than repeating general company news. For employment_currentness, find recent dated employer announcements, appointments or named quotes confirming current employment. Do not substitute undated biographies, retrieval dates, copyright years or an after: query filter for an actual publication/event date. Use concise suggested query strings, not this entire instruction or JSON context as a search query. Discover actual public URLs; never invent profile paths. Research narration is not verified evidence. {\\\"prospect\\\": {\\\"company_name\\\": \\\"Microsoft\\\", \\\"prospect_name\\\": \\\"Satya Nadella\\\", \\\"company_website\\\": \\\"https://www.microsoft.com/\\\", \\\"today\\\": \\\"2026-11-26\\\", \\\"research_focus\\\": \\\"employment_currentness\\\", \\\"identity_gaps\\\": [], \\\"followup_focus\\\": \\\"Find recent dated primary evidence of current employment; do not repeat undated biographies as current proof\\\"}, \\\"search_plan\\\": {\\\"focus\\\": \\\"employment_currentness\\\", \\\"suggested_queries\\\": [{\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"site:www.microsoft.com \\\\\\\"Satya Nadella\\\\\\\" \\\\\\\"Microsoft\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\" OR quoted) after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"\\\\\\\"Satya Nadella\\\\\\\" \\\\\\\"Microsoft\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\" OR quoted) after:2026-05-30\\\"}]}}",
+      "queries": [
+       "Prioritize this specific person's current official employer leadership, team or biography page, then company events within 180 days. Use the supplied query suggestions to disambiguate the person and employer. Do not restrict identity discovery to a literal user-entered title. An employer website is only a search hint; corroborate ownership and person/employer identity. For identity_recovery, focus this search on current primary identity evidence rather than repeating general company news. For employment_currentness, find recent dated employer announcements, appointments or named quotes confirming current employment. Do not substitute undated biographies, retrieval dates, copyright years or an after: query filter for an actual publication/event date. Use concise suggested query strings, not this entire instruction or JSON context as a search query. Discover actual public URLs; never invent profile paths. Research narration is not verified evidence. {\\\"prospect\\\": {\\\"company_name\\\": \\\"Microsoft\\\", \\\"prospect_name\\\": \\\"Satya Nadella\\\", \\\"company_website\\\": \\\"https://www.microsoft.com/\\\", \\\"today\\\": \\\"2026-11-26\\\", \\\"research_focus\\\": \\\"employment_currentness\\\", \\\"identity_gaps\\\": [], \\\"followup_focus\\\": \\\"Find recent dated primary evidence of current employment; do not repeat undated biographies as current proof\\\"}, \\\"search_plan\\\": {\\\"focus\\\": \\\"employment_currentness\\\", \\\"suggested_queries\\\": [{\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"site:www.microsoft.com \\\\\\\"Satya Nadella\\\\\\\" \\\\\\\"Microsoft\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\" OR quoted) after:2026-05-30\\\"}, {\\\"purpose\\\": \\\"current_employment\\\", \\\"query\\\": \\\"\\\\\\\"Satya Nadella\\\\\\\" \\\\\\\"Microsoft\\\\\\\" (appointed OR joined OR \\\\\\\"press release\\\\\\\" OR quoted) after:2026-05-30\\\"}]}}"
+      ],
+      "sources": [
+       {
+        "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/latest-from-satya?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://news.microsoft.com/source/2026/11/04/microsoft-announces-change-to-director-slate-for-annual-shareholders-meeting/?utm_source=openai",
+        "type": "url"
+       },
+       {
+        "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/?utm_source=openai",
+        "type": "url"
+       }
+      ]
+     },
+     "status": "completed"
+    }
+   ],
+   "provider_request_id": "resp_0493ef25b9845458006b085f078c3487d0b43a1a0dfd11ba5e"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 1959,
+    "total_tokens": 2213,
+    "output_tokens": 254,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 2790,
+   "provider_request_id": "resp_0c54f8b15aefe84d006b085f2aeef887d0aa543d94c9e77be5"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 3825,
+    "total_tokens": 4159,
+    "output_tokens": 334,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 5233,
+   "provider_request_id": "resp_00dadf0573979777006b085f2adfb487d0a043a2f064b68356"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "Evidence",
+   "usage": {
+    "input_tokens": 3093,
+    "total_tokens": 3485,
+    "output_tokens": 392,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 7671,
+   "provider_request_id": "resp_09b68325bf5187d1006b085f2ae2f487d0bd933f808e47e740"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "ExcerptSelection",
+   "usage": {
+    "input_tokens": 2125,
+    "total_tokens": 2285,
+    "output_tokens": 160,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 7872,
+   "provider_request_id": "resp_0f2b0cd4551023fc006b085f37e05487d09b971134e12d368b"
+  },
+  {
+   "model": "gpt-4.1",
+   "stage": "EvidenceReview",
+   "usage": {
+    "input_tokens": 2461,
+    "total_tokens": 3139,
+    "output_tokens": 678,
+    "input_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_write_tokens_details": {
+      "ttl_12h_tokens": 0,
+      "ttl_30m_tokens": 0
+     }
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "status": "completed",
+   "latency_ms": 11049,
+   "provider_request_id": "resp_013d3e3129e4a52d006b085f4d677887d090c317afcdbf04e8"
+  }
+ ],
+ "signal_evaluation": null,
+ "research_diagnostics": {
+  "retrieval_attempts": [
+   {
+    "phase": "retrieval",
+    "followup": false,
+    "sources": [
+     {
+      "url": "https://www.microsoft.com/investor/reports/ar26/",
+      "available": false,
+      "error": "retrieval_timeout"
+     },
+     {
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "available": false,
+      "error": "http_403"
+     },
+     {
+      "url": "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/latest-from-satya",
+      "available": false,
+      "error": "retrieval_timeout"
+     },
+     {
+      "url": "https://www.techradar.com/pro/microsoft-declared-an-internal-code-red-after-historic-m365-outage-notes-our-work-doesnt-end-when-service-is-restored",
+      "available": false,
+      "error": "source_too_large"
+     },
+     {
+      "url": "https://www.techradar.com/pro/security/remember-there-is-a-lot-of-stuff-in-our-critical-infrastructure-thats-unpatchable-microsoft-ceo-satya-nadella-warns-more-outages-of-key-networks-could-be-coming",
+      "available": false,
+      "error": "source_too_large"
+     },
+     {
+      "url": "https://www.axios.com/2026/10/09/trump-microsoft-immigration-tech",
+      "available": false,
+      "error": "http_403"
+     },
+     {
+      "url": "https://apnews.com/article/f7dff4fb9d51a2bdec56a13e5da1053d",
+      "available": false,
+      "error": "http_403"
+     }
+    ],
+    "selected_urls": [
+     "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/"
+    ]
+   },
+   {
+    "phase": "retrieval",
+    "followup": true,
+    "sources": [
+     {
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/latest-from-satya",
+      "available": false,
+      "error": "retrieval_timeout"
+     },
+     {
+      "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+      "available": false,
+      "error": "retrieval_timeout"
+     },
+     {
+      "url": "https://news.microsoft.com/source/2026/11/04/microsoft-announces-change-to-director-slate-for-annual-shareholders-meeting/",
+      "available": true,
+      "error": null
+     },
+     {
+      "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/",
+      "available": true,
+      "error": null
+     }
+    ],
+    "selected_urls": [
+     "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/",
+     "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+     "https://news.microsoft.com/source/2026/11/04/microsoft-announces-change-to-director-slate-for-annual-shareholders-meeting/",
+     "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/"
+    ]
+   }
+  ],
+  "verification_attempts": [
+   {
+    "sources": [
+     {
+      "source_id": "src_08dfbc1bfa669fc0b8e67db5",
+      "url": "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": false,
+      "age_days": 259,
+      "date_warnings": []
+     }
+    ],
+    "claims": [
+     {
+      "claim_id": "claim1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_08dfbc1bfa669fc0b8e67db5"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim1",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified",
+       "current_role_requires_recent_dated_primary"
+      ],
+      "original_source_ids": [],
+      "explanation": "The Microsoft official blog, dated March 12, 2026, states 'Satya Nadella, Chairman and CEO,' directly supporting that Satya Nadella is Chairman and CEO of Microsoft as of that date. The title matches the user-submitted 'Chairman and Chief Executive Officer.'",
+      "designation_match": "equivalent",
+      "current_role_verified": false
+     }
+    ],
+    "identity_confidence": "high",
+    "gate_outcome": null,
+    "gate_reasons": [],
+    "followup_requested": true,
+    "identity_checks": {
+     "prospect_identity": {
+      "status": "verified",
+      "claim_ids": [
+       "claim1"
+      ],
+      "source_ids": [
+       "src_08dfbc1bfa669fc0b8e67db5"
+      ],
+      "reasons": []
+     },
+     "company_association": {
+      "status": "verified",
+      "claim_ids": [
+       "claim1"
+      ],
+      "source_ids": [
+       "src_08dfbc1bfa669fc0b8e67db5"
+      ],
+      "reasons": []
+     },
+     "title_match": {
+      "status": "equivalent",
+      "claim_ids": [
+       "claim1"
+      ],
+      "source_ids": [
+       "src_08dfbc1bfa669fc0b8e67db5"
+      ],
+      "reasons": []
+     },
+     "role_currentness": {
+      "status": "unverified",
+      "claim_ids": [],
+      "source_ids": [],
+      "reasons": [
+       "role_currentness_unverified"
+      ]
+     },
+     "role_claim_ids": [
+      "claim1"
+     ]
+    }
+   },
+   {
+    "sources": [
+     {
+      "source_id": "src_08dfbc1bfa669fc0b8e67db5",
+      "url": "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": false,
+      "age_days": 259,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_170626d554c3e48485732d12",
+      "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 9,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_3d980866ff2c25312f281a0c",
+      "url": "https://news.microsoft.com/source/2026/11/04/microsoft-announces-change-to-director-slate-for-annual-shareholders-meeting/",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 22,
+      "date_warnings": []
+     },
+     {
+      "source_id": "src_df6243a6de1d2828e3af6667",
+      "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/",
+      "accepted": true,
+      "reasons": [],
+      "quality": 1.0,
+      "fresh_signal_eligible": true,
+      "age_days": 9,
+      "date_warnings": []
+     }
+    ],
+    "claims": [
+     {
+      "claim_id": "claim1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_08dfbc1bfa669fc0b8e67db5"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_170626d554c3e48485732d12"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_2",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_170626d554c3e48485732d12"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_1839c3d5cbb1b75c429db69f",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_3d980866ff2c25312f281a0c"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_df6243a6de1d2828e3af6667"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_02",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [
+       "src_df6243a6de1d2828e3af6667"
+      ],
+      "explanation": null,
+      "designation_match": null,
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim1",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified",
+       "current_role_requires_recent_dated_primary"
+      ],
+      "original_source_ids": [],
+      "explanation": "Both sources directly refer to Satya Nadella as 'Chairman and CEO' or 'Chairman and Chief Executive Officer' of Microsoft in 2026, supporting both the person and his specific titles as of the relevant, recent dates.",
+      "designation_match": "equivalent",
+      "current_role_verified": false
+     },
+     {
+      "claim_id": "claim_2",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [],
+      "explanation": "This official source refers to Satya Nadella as 'Microsoft Chairman and CEO' when describing his active keynote address on Nov 17, 2026. This demonstrates both his identity and current titles at that date.",
+      "designation_match": "equivalent",
+      "current_role_verified": true
+     },
+     {
+      "claim_id": "claim_1",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [],
+      "explanation": "The claim about delivering the keynote is supported by the source, but it does not assert any role, only an action on a specific date. Therefore, the role-related fields are not applicable.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     },
+     {
+      "claim_id": "claim_1839c3d5cbb1b75c429db69f",
+      "eligible": false,
+      "reasons": [
+       "role_currentness_unverified",
+       "current_role_requires_recent_dated_primary"
+      ],
+      "original_source_ids": [],
+      "explanation": "On Nov 4, 2026, the official statement directly describes Satya Nadella as 'Chairman and Chief Executive Officer of Microsoft,' confirming his continuing roles at that time.",
+      "designation_match": "equivalent",
+      "current_role_verified": false
+     },
+     {
+      "claim_id": "claim_02",
+      "eligible": true,
+      "reasons": [],
+      "original_source_ids": [],
+      "explanation": "This claim is about an event\u2014the announcement of the AI Transparency Initiative\u2014rather than a specific title or role; thus, role-related fields are not applicable.",
+      "designation_match": "not_applicable",
+      "current_role_verified": null
+     }
+    ],
+    "identity_confidence": "high",
+    "gate_outcome": null,
+    "gate_reasons": [],
+    "followup_requested": false,
+    "identity_checks": {
+     "prospect_identity": {
+      "status": "verified",
+      "claim_ids": [
+       "claim1",
+       "claim_2",
+       "claim_1839c3d5cbb1b75c429db69f"
+      ],
+      "source_ids": [
+       "src_08dfbc1bfa669fc0b8e67db5",
+       "src_170626d554c3e48485732d12",
+       "src_3d980866ff2c25312f281a0c",
+       "src_df6243a6de1d2828e3af6667"
+      ],
+      "reasons": []
+     },
+     "company_association": {
+      "status": "verified",
+      "claim_ids": [
+       "claim1",
+       "claim_2",
+       "claim_1839c3d5cbb1b75c429db69f"
+      ],
+      "source_ids": [
+       "src_08dfbc1bfa669fc0b8e67db5",
+       "src_170626d554c3e48485732d12",
+       "src_3d980866ff2c25312f281a0c",
+       "src_df6243a6de1d2828e3af6667"
+      ],
+      "reasons": []
+     },
+     "title_match": {
+      "status": "equivalent",
+      "claim_ids": [
+       "claim1",
+       "claim_1839c3d5cbb1b75c429db69f",
+       "claim_2"
+      ],
+      "source_ids": [
+       "src_08dfbc1bfa669fc0b8e67db5",
+       "src_170626d554c3e48485732d12",
+       "src_3d980866ff2c25312f281a0c",
+       "src_df6243a6de1d2828e3af6667"
+      ],
+      "reasons": []
+     },
+     "role_currentness": {
+      "status": "verified",
+      "claim_ids": [
+       "claim_2"
+      ],
+      "source_ids": [
+       "src_170626d554c3e48485732d12"
+      ],
+      "reasons": []
+     },
+     "role_claim_ids": [
+      "claim1",
+      "claim_1839c3d5cbb1b75c429db69f",
+      "claim_2"
+     ]
+    }
+   }
+  ]
+ }
+}

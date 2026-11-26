@@ -1,0 +1,14 @@
+
+up to date in 4s
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: signalflow-frontend@0.1.0
+npm warn Found: react@18.3.1
+npm warn node_modules/react
+npm warn   react@"19.3.1" from the root project
+npm warn   5 more (@radix-ui/react-compose-refs, @radix-ui/react-slot, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^18.3.1" from react-dom@18.3.1
+npm warn node_modules/react-dom
+npm warn   react-dom@"19.3.1" from the root project
+npm warn   1 more (next)

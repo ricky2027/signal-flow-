@@ -1,0 +1,247 @@
+{
+  "run_id": "2e86e80e-7597-4824-888b-3593f0c011ec",
+  "source_export_sha256": "7f57dcdab5829bea68950f5f29fadb347a248670e10a69c2c4c4829faaaef902",
+  "unique_urls": 8,
+  "unique_retrieved": 7,
+  "retained_urls": [
+    "https://www.kellyservices.com/divisions/outsourcing-consulting-group/about/",
+    "https://www.linkedin.com/company/kellyocg"
+  ],
+  "provider_counts": {
+    "research": 2,
+    "Evidence": 8,
+    "EvidenceReview": 2
+  },
+  "provider_failures": [],
+  "url_findings": [
+    {
+      "url": "https://www.kellyocg.com/about-us/leadership/pete-hamilton/",
+      "retrievals": [
+        {
+          "pass": 1,
+          "available": true,
+          "error": null
+        },
+        {
+          "pass": 2,
+          "available": true,
+          "error": null
+        }
+      ],
+      "qualifications": [
+        {
+          "pass": 1,
+          "accepted": false,
+          "reasons": [
+            "passage_word_limit"
+          ],
+          "quality": 1.0,
+          "age_days": null
+        },
+        {
+          "pass": 2,
+          "accepted": false,
+          "reasons": [
+            "passage_word_limit"
+          ],
+          "quality": 1.0,
+          "age_days": null
+        }
+      ],
+      "retained": false
+    },
+    {
+      "url": "https://www.kellyservices.com/press-releases/kelly-expands-global-delivery-center-in-bangalore",
+      "retrievals": [
+        {
+          "pass": 1,
+          "available": true,
+          "error": null
+        }
+      ],
+      "qualifications": [
+        {
+          "pass": 1,
+          "accepted": false,
+          "reasons": [
+            "passage_word_limit"
+          ],
+          "quality": 0.8,
+          "age_days": 13
+        },
+        {
+          "pass": 2,
+          "accepted": false,
+          "reasons": [
+            "passage_word_limit"
+          ],
+          "quality": 0.8,
+          "age_days": 13
+        }
+      ],
+      "retained": false
+    },
+    {
+      "url": "https://www.kellyservices.com/divisions/outsourcing-consulting-group/about/",
+      "retrievals": [
+        {
+          "pass": 1,
+          "available": true,
+          "error": null
+        },
+        {
+          "pass": 2,
+          "available": true,
+          "error": null
+        }
+      ],
+      "qualifications": [
+        {
+          "pass": 1,
+          "accepted": true,
+          "reasons": [],
+          "quality": 0.8,
+          "age_days": null
+        },
+        {
+          "pass": 2,
+          "accepted": true,
+          "reasons": [],
+          "quality": 0.8,
+          "age_days": null
+        }
+      ],
+      "retained": true
+    },
+    {
+      "url": "https://www.kellyservices.com/press-releases/all",
+      "retrievals": [
+        {
+          "pass": 1,
+          "available": true,
+          "error": null
+        }
+      ],
+      "qualifications": [
+        {
+          "pass": 1,
+          "accepted": false,
+          "reasons": [
+            "passage_not_found"
+          ],
+          "quality": 0.8,
+          "age_days": 23
+        },
+        {
+          "pass": 2,
+          "accepted": false,
+          "reasons": [
+            "passage_not_found"
+          ],
+          "quality": 0.8,
+          "age_days": 23
+        }
+      ],
+      "retained": false
+    },
+    {
+      "url": "https://ir.kellyservices.com/static-files/90684e60-8d94-4205-9012-ceee1e98159c",
+      "retrievals": [
+        {
+          "pass": 1,
+          "available": false,
+          "error": "http_403"
+        }
+      ],
+      "qualifications": [],
+      "retained": false
+    },
+    {
+      "url": "https://au.linkedin.com/in/peterhamilton1",
+      "retrievals": [
+        {
+          "pass": 1,
+          "available": true,
+          "error": null
+        },
+        {
+          "pass": 2,
+          "available": true,
+          "error": null
+        }
+      ],
+      "qualifications": [
+        {
+          "pass": 1,
+          "accepted": false,
+          "reasons": [
+            "passage_not_found",
+            "passage_word_limit"
+          ],
+          "quality": 1.0,
+          "age_days": 3
+        },
+        {
+          "pass": 2,
+          "accepted": false,
+          "reasons": [
+            "passage_not_found",
+            "passage_word_limit"
+          ],
+          "quality": 1.0,
+          "age_days": 3
+        }
+      ],
+      "retained": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/kellyocg",
+      "retrievals": [
+        {
+          "pass": 1,
+          "available": true,
+          "error": null
+        }
+      ],
+      "qualifications": [
+        {
+          "pass": 1,
+          "accepted": true,
+          "reasons": [],
+          "quality": 0.4,
+          "age_days": null
+        },
+        {
+          "pass": 2,
+          "accepted": true,
+          "reasons": [],
+          "quality": 0.4,
+          "age_days": null
+        }
+      ],
+      "retained": true
+    },
+    {
+      "url": "https://6ix.com/news/kellyr-expands-global-delivery-center-in-bangalore",
+      "retrievals": [
+        {
+          "pass": 2,
+          "available": true,
+          "error": null
+        }
+      ],
+      "qualifications": [
+        {
+          "pass": 2,
+          "accepted": false,
+          "reasons": [
+            "passage_word_limit"
+          ],
+          "quality": 0.8,
+          "age_days": 13
+        }
+      ],
+      "retained": false
+    }
+  ]
+}

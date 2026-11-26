@@ -1,0 +1,77 @@
+{
+  "note": "Historical retained evidence from the supplied export; no missing page bodies or fresh quotations are synthesized.",
+  "run_id": "2e86e80e-7597-4824-888b-3593f0c011ec",
+  "evidence": {
+    "claims": [
+      {
+        "id": "claim_1",
+        "kind": "identity",
+        "text": "Pete Hamilton is vice president and managing director, APAC region, of KellyOCG, the outsourcing and consulting practice of Kelly Services.",
+        "source_ids": [
+          "src_359daa325de526a6527fa1c9"
+        ],
+        "entity_match": true,
+        "verification": "supported",
+        "conflict_group": null
+      },
+      {
+        "id": "claim_01",
+        "kind": "identity",
+        "text": "Kelly Outsourcing & Consulting Group (KellyOCG) is the tech-enabled outsourcing and advisory business of workforce strategy and solutions provider, Kelly.",
+        "source_ids": [
+          "src_b13a98044ab16d3de08fec9f"
+        ],
+        "entity_match": true,
+        "verification": "supported",
+        "conflict_group": null
+      },
+      {
+        "id": "claim_02",
+        "kind": "context",
+        "text": "KellyOCG helps organizations build stronger teams, streamline talent acquisition, and improve their talent strategies.",
+        "source_ids": [
+          "src_b13a98044ab16d3de08fec9f"
+        ],
+        "entity_match": true,
+        "verification": "supported",
+        "conflict_group": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "src_359daa325de526a6527fa1c9",
+        "url": "https://www.kellyservices.com/divisions/outsourcing-consulting-group/about/",
+        "title": "About | Kelly Outsourcing & Consulting Group",
+        "passage": "Pete Hamilton is vice president and managing director, APAC region, of KellyOCG \u00ae , a leading global advisor of talent supply chain strategies and the outsourcing and consulting practice of Kelly Services. Kelly is a global provider of workforce solutions, always thinking about what\u2019s next in the story of work, connecting talented people to companies in need of their skills and designing talent strategies that help businesses embrace the value of all workers and workstyles.",
+        "planned": false,
+        "event_at": null,
+        "publisher": "Kelly Services",
+        "date_basis": "unknown",
+        "source_type": "reporting",
+        "origin_group": "Kelly Services",
+        "published_at": null
+      },
+      {
+        "id": "src_b13a98044ab16d3de08fec9f",
+        "url": "https://www.linkedin.com/company/kellyocg",
+        "title": "KellyOCG | LinkedIn",
+        "passage": "Kelly Outsourcing & Consulting Group (KellyOCG\u00ae) is the tech-enabled outsourcing and advisory business of leading workforce strategy and solutions provider, Kelly\u00ae. We make workforce complexity manageable. We bring tailored solutions to some of the world\u2019s toughest talent challenges \u2014 helping organizations build stronger teams, streamline talent acquisition, and get more from their talent strategies.",
+        "planned": false,
+        "event_at": null,
+        "publisher": "LinkedIn",
+        "date_basis": "unknown",
+        "source_type": "aggregator",
+        "origin_group": "LinkedIn",
+        "published_at": null
+      }
+    ],
+    "warnings": [
+      "No explicit statement found of Pete Hamilton holding the title 'Vice President, APAC \u2014 KellyOCG' in the retained passage; identity confidence is low.",
+      "Role must not be inferred solely from user input or LinkedIn profile sections not present in the passage.",
+      "No information found about Pete Hamilton or the role of Vice President, APAC \u2014 KellyOCG on this page.",
+      "current_identity_not_verified"
+    ],
+    "identity_confidence": "low",
+    "material_identity_conflict": false
+  }
+}

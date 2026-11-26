@@ -1,0 +1,161 @@
+
+> signalflow-frontend@0.1.0 test
+> node --import tsx --test tests/unit.test.ts tests/research-display.test.ts
+
+TAP version 13
+# Subtest: insufficient evidence explains blocked scoring, including historical runs without diagnostics
+ok 1 - insufficient evidence explains blocked scoring, including historical runs without diagnostics
+  ---
+  duration_ms: 6.425916
+  ...
+# Subtest: selected scored signals display role/offer reasoning and supporting claims
+ok 2 - selected scored signals display role/offer reasoning and supporting claims
+  ---
+  duration_ms: 0.686583
+  ...
+# Subtest: evidence diagnostics display actual recorded rejection categories without inventing sources
+ok 3 - evidence diagnostics display actual recorded rejection categories without inventing sources
+  ---
+  duration_ms: 1.234
+  ...
+# Subtest: tracking variants of retained evidence are not displayed as unverified source leads
+ok 4 - tracking variants of retained evidence are not displayed as unverified source leads
+  ---
+  duration_ms: 11.087708
+  ...
+# Subtest: successful retrieval does not hide a later extraction error
+ok 5 - successful retrieval does not hide a later extraction error
+  ---
+  duration_ms: 0.80625
+  ...
+# Subtest: identity, association, title and currentness display independently without implying employment
+ok 6 - identity, association, title and currentness display independently without implying employment
+  ---
+  duration_ms: 0.634208
+  ...
+# Subtest: company-context signals explicitly disclose exclusion of unverified role claims
+ok 7 - company-context signals explicitly disclose exclusion of unverified role claims
+  ---
+  duration_ms: 0.564208
+  ...
+# Subtest: all actual backend statuses have distinct labels and only queued/running are active
+ok 8 - all actual backend statuses have distinct labels and only queued/running are active
+  ---
+  duration_ms: 1.49775
+  ...
+# Subtest: timeline never invents completion from run status
+ok 9 - timeline never invents completion from run status
+  ---
+  duration_ms: 0.116083
+  ...
+# Subtest: abstention leaves incomplete stages stopped, not complete
+ok 10 - abstention leaves incomplete stages stopped, not complete
+  ---
+  duration_ms: 0.060708
+  ...
+# Subtest: runtime guards reject malformed API success bodies
+ok 11 - runtime guards reject malformed API success bodies
+  ---
+  duration_ms: 0.212541
+  ...
+# Subtest: unsafe URLs are never clickable source links
+ok 12 - unsafe URLs are never clickable source links
+  ---
+  duration_ms: 0.304125
+  ...
+# Subtest: browser requests include same-origin credentials and preserve invalid-code errors
+ok 13 - browser requests include same-origin credentials and preserve invalid-code errors
+  ---
+  duration_ms: 8.952333
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 202.673834
+
+> signalflow-frontend@0.1.0 test:security
+> node --import tsx --test tests/security.test.ts
+
+TAP version 13
+# Without `from` option PostCSS could generate wrong source map and will not find Browserslist config. Set it to CSS file path or to `undefined` to prevent this warning.
+# Subtest: CSS serialization cannot close an enclosing HTML style element
+ok 1 - CSS serialization cannot close an enclosing HTML style element
+  ---
+  duration_ms: 1.317334
+  ...
+# Subtest: untrusted source map paths cannot read outside the CSS directory or when from is omitted
+ok 2 - untrusted source map paths cannot read outside the CSS directory or when from is omitted
+  ---
+  duration_ms: 2.514083
+  ...
+# Subtest: no older PostCSS copy can remain hidden under Next or Tailwind in the lockfile
+ok 3 - no older PostCSS copy can remain hidden under Next or Tailwind in the lockfile
+  ---
+  duration_ms: 1.517792
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 118.006709
+
+> signalflow-frontend@0.1.0 test:integration
+> node --import tsx --test tests/integration.test.ts
+
+TAP version 13
+# Subtest: Next proxy ↔ real FastAPI ↔ isolated persistence, failure and SSE
+ok 1 - Next proxy ↔ real FastAPI ↔ isolated persistence, failure and SSE
+  ---
+  duration_ms: 8073.362208
+  ...
+# Subtest: proxy converts API disconnection into an actionable 502
+ok 2 - proxy converts API disconnection into an actionable 502
+  ---
+  duration_ms: 0.484125
+  ...
+# Subtest: proxy preserves version conflicts and rejects unknown upstream routes
+ok 3 - proxy preserves version conflicts and rejects unknown upstream routes
+  ---
+  duration_ms: 0.543958
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8673.932292
+
+> signalflow-frontend@0.1.0 test:dom
+> node --import tsx --test tests/dom.test.ts
+
+TAP version 13
+# Subtest: DOM interaction audit against real FastAPI: auth, validated form, SSE interruption, failed run and empty output
+ok 1 - DOM interaction audit against real FastAPI: auth, validated form, SSE interruption, failed run and empty output
+  ---
+  duration_ms: 12161.979417
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12869.479416
+
+> signalflow-frontend@0.1.0 typecheck
+> tsc --noEmit
+

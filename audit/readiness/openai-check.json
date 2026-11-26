@@ -1,0 +1,35 @@
+{
+  "status": "failed",
+  "exception": "ConnectError",
+  "http_status": null,
+  "message": "Provider request failed; no research success is claimed.",
+  "calls": [
+    {
+      "stage": "research",
+      "model": "gpt-4.1",
+      "status": "failed",
+      "error_code": "ConnectError",
+      "http_status": null,
+      "attempt": 1,
+      "latency_ms": 5
+    },
+    {
+      "stage": "research",
+      "model": "gpt-4.1",
+      "status": "failed",
+      "error_code": "ConnectError",
+      "http_status": null,
+      "attempt": 2,
+      "latency_ms": 2
+    },
+    {
+      "stage": "research",
+      "model": "gpt-4.1",
+      "status": "failed",
+      "error_code": "ConnectError",
+      "http_status": null,
+      "attempt": 3,
+      "latency_ms": 1
+    }
+  ]
+}

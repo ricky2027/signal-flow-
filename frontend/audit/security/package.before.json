@@ -1,0 +1,40 @@
+{
+  "name": "signalflow-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/unit.test.ts",
+    "test:e2e": "npm --prefix browser-tests test --",
+    "types:generate": "python3 scripts/generate-types.py",
+    "test:integration": "node --import tsx --test tests/integration.test.ts",
+    "test:dom": "node --import tsx --test tests/dom.test.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "1.1.2",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "lucide-react": "0.456.0",
+    "next": "14.2.18",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwind-merge": "2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "@types/react": "18.3.20",
+    "@types/react-dom": "18.3.5",
+    "autoprefixer": "10.4.21",
+    "jsdom": "^16.7.0",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.17",
+    "tsx": "4.22.4",
+    "typescript": "5.8.3"
+  },
+  "overrides": {
+    "esbuild": "0.28.0"
+  }
+}

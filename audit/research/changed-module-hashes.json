@@ -1,0 +1,14 @@
+{
+  "backend/app/agents/research.py": "df5dd53542224e4565bc614c75bb9d878958bcafbaab51fc0e5dae0dd8a9baef",
+  "backend/app/agents/signals.py": "c390c92d38f381f3703feb2b523cc82d21b3c27e9bbec67cd85dbe3f66c4cfb5",
+  "backend/app/graph.py": "2e0394d54513eac50c05f91661327452dc348ab42930083bb3ebbd92a4e390d8",
+  "backend/app/policy.py": "a8b6c2dbc77d519ad2a069b9cfa02089ce464fd91d835fd3a9f0aa2eb2c96411",
+  "backend/app/store.py": "995f6f0250f87b41a4d896e7bb2452ccd51e0bcdb2eeb8ba52c436b7f8a8e2b6",
+  "backend/app/schemas.py": "0fb5ba57a320621b05a472b794c14045a764fc4e807193e051f55b7b238c188f",
+  "backend/app/retrieval.py": "e6a67052f6a3599876dde463072060dda1ea9cd12545f4d8df27bb02931ed9b1",
+  "backend/app/worker.py": "e76de58a35afcdd721ac107f47c67d74700dbff517efc0aab5de4b8bc9413d78",
+  "frontend/src/components/evidence.tsx": "71e297d8c35fcfafdc2e9c89cfeb3e978bcdb6d45052237cd9f5a335d79692ef",
+  "frontend/src/components/execution.tsx": "bd9a4c4e1d7a091747485f23be94fab6d9b1266c8b9cc005b92e8cc93907c556",
+  "frontend/src/lib/status.ts": "3488988dbd1de279173ff0fae339e0e907bdb0d2504f9c0e0996b98b2134fbe7",
+  "frontend/src/lib/guards.ts": "8c389900027987f97e3e9e61195fab0184c84fdddf904cfd6d86d80365a01b0b"
+}

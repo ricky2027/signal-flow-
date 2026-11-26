@@ -1,0 +1,9 @@
+
+> signalflow-frontend@0.1.0 test:e2e
+> npm --prefix browser-tests test -- --grep empty dashboard
+
+
+> test
+> playwright test --grep empty dashboard
+
+sh: playwright: command not found

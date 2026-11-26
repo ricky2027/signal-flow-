@@ -1,0 +1,39 @@
+
+> signalflow-frontend@0.1.0 test
+> node --import tsx --test tests/unit.test.ts
+
+TAP version 13
+# Subtest: all actual backend statuses have distinct labels and only queued/running are active
+ok 1 - all actual backend statuses have distinct labels and only queued/running are active
+  ---
+  duration_ms: 1.338583
+  ...
+# Subtest: timeline never invents completion from run status
+ok 2 - timeline never invents completion from run status
+  ---
+  duration_ms: 0.11725
+  ...
+# Subtest: abstention leaves incomplete stages stopped, not complete
+ok 3 - abstention leaves incomplete stages stopped, not complete
+  ---
+  duration_ms: 0.11875
+  ...
+# Subtest: runtime guards reject malformed API success bodies
+ok 4 - runtime guards reject malformed API success bodies
+  ---
+  duration_ms: 0.114083
+  ...
+# Subtest: unsafe URLs are never clickable source links
+ok 5 - unsafe URLs are never clickable source links
+  ---
+  duration_ms: 0.119375
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 206.205166

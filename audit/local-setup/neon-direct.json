@@ -1,0 +1,5 @@
+{
+  "direct_libpq_connection": "failed",
+  "reason": "DNS lookup failed",
+  "exit_code": 2
+}

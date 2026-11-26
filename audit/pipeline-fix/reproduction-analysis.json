@@ -1,0 +1,117 @@
+{
+  "provenance": "User-provided persisted run export; not a new live run",
+  "run_id": "1d91fb5b-4422-4f70-a730-e62ae967aead",
+  "status": "insufficient_information",
+  "retrieval_attempts": [
+    {
+      "discovered_attempts": 12,
+      "available": 5
+    },
+    {
+      "discovered_attempts": 6,
+      "available": 3
+    }
+  ],
+  "retained_source_count": 1,
+  "retained_publication_dates": [
+    "2026-03-12"
+  ],
+  "dangling_claim_source_ids": [
+    "source-1",
+    "source-2",
+    "source-4",
+    "source-5"
+  ],
+  "stored_identity_confidence": "high",
+  "relational_counts": {
+    "sources": 1,
+    "claims": 1,
+    "signals": 0
+  },
+  "provider_attempts": [
+    {
+      "stage": "research",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 17690,
+        "total_tokens": 19618,
+        "output_tokens": 1928,
+        "input_tokens_details": {
+          "cached_tokens": 2432,
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "latency_ms": 12987
+    },
+    {
+      "stage": "Evidence",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 7917,
+        "total_tokens": 8634,
+        "output_tokens": 717,
+        "input_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "latency_ms": 7288
+    },
+    {
+      "stage": "research",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 17684,
+        "total_tokens": 18901,
+        "output_tokens": 1217,
+        "input_tokens_details": {
+          "cached_tokens": 2432,
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "latency_ms": 10221
+    },
+    {
+      "stage": "Evidence",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 7917,
+        "total_tokens": 8694,
+        "output_tokens": 777,
+        "input_tokens_details": {
+          "cached_tokens": 7680,
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "latency_ms": 4686
+    }
+  ]
+}

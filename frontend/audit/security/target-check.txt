@@ -1,0 +1,10 @@
+
+> signalflow-frontend@0.1.0 security:check
+> node scripts/check-security.mjs
+
+next: installed=14.2.18, locked=14.2.18, checked target=16.4.6
+react: installed=18.3.1, locked=18.3.1, checked target=19.3.1
+react-dom: installed=18.3.1, locked=18.3.1, checked target=19.3.1
+@types/react: installed=18.3.20, locked=18.3.20, checked target=19.3.0
+@types/react-dom: installed=18.3.5, locked=18.3.5, checked target=19.3.0
+Security upgrade is incomplete. Do not deploy.

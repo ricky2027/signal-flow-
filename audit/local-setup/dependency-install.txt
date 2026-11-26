@@ -1,0 +1,6 @@
+Using Python 3.14.3 environment at: backend/.venv
+error: Failed to fetch: `https://pypi.org/simple/psycopg/`
+  Caused by: error sending request for url (https://pypi.org/simple/psycopg/)
+  Caused by: client error (Connect)
+  Caused by: dns error
+  Caused by: failed to lookup address information: nodename nor servname provided, or not known

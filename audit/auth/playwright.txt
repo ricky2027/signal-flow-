@@ -1,0 +1,9 @@
+
+> signalflow-frontend@0.1.0 test:e2e
+> npm --prefix browser-tests test -- --grep login rejects
+
+
+> test
+> playwright test --grep login rejects
+
+sh: playwright: command not found

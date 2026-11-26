@@ -1,0 +1,35 @@
+
+> signalflow-frontend@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.18
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/7) ...
+   Generating static pages (1/7) 
+   Generating static pages (3/7) 
+   Generating static pages (5/7) 
+ ✓ Generating static pages (7/7)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    3.29 kB         111 kB
+├ ○ /_not-found                          138 B          87.3 kB
+├ ƒ /api/[...path]                       0 B                0 B
+├ ○ /research/new                        5.76 kB         108 kB
+├ ○ /reviews                             1.14 kB         109 kB
+├ ○ /runs                                1.14 kB         109 kB
+└ ƒ /runs/[id]                           13.5 kB         116 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-fb6346dd8f7237c9.js       31.6 kB
+  ├ chunks/fd9d1056-28b464a8d2f820ea.js  53.6 kB
+  └ other shared chunks (total)          1.89 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

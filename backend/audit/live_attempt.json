@@ -1,0 +1,44 @@
+{
+  "mode": "actual OpenAI call attempted; SQLite audit DB only; no mock provider",
+  "login_http_status": 200,
+  "submission_http_status": 202,
+  "retrieval_http_status": 200,
+  "run_id": "0b7db787-e7e6-4b71-aea1-cb253bddec86",
+  "status": "failed",
+  "error": {
+    "code": "ConnectError",
+    "retryable": true
+  },
+  "source_count": 0,
+  "draft_count": 0,
+  "provider_calls": [
+    {
+      "stage": "research",
+      "model": "gpt-4.1",
+      "status": "failed",
+      "error_code": "ConnectError",
+      "http_status": null,
+      "attempt": 1,
+      "latency_ms": 9
+    },
+    {
+      "stage": "research",
+      "model": "gpt-4.1",
+      "status": "failed",
+      "error_code": "ConnectError",
+      "http_status": null,
+      "attempt": 2,
+      "latency_ms": 4
+    },
+    {
+      "stage": "research",
+      "model": "gpt-4.1",
+      "status": "failed",
+      "error_code": "ConnectError",
+      "http_status": null,
+      "attempt": 3,
+      "latency_ms": 5
+    }
+  ],
+  "sse": "id: 1\nevent: run.queued\ndata: {\"run_id\": \"0b7db787-e7e6-4b71-aea1-cb253bddec86\", \"sequence\": 1, \"type\": \"run.queued\", \"stage\": \"validate\", \"occurred_at\": \"2026-11-26T07:08:23.849481+00:00\", \"payload\": {}}\n\nid: 2\nevent: run.status_changed\ndata: {\"run_id\": \"0b7db787-e7e6-4b71-aea1-cb253bddec86\", \"sequence\": 2, \"type\": \"run.status_changed\", \"stage\": null, \"occurred_at\": \"2026-11-26T07:08:23.852607+00:00\", \"payload\": {\"status\": \"running\"}}\n\nid: 3\nevent: stage.started\ndata: {\"run_id\": \"0b7db787-e7e6-4b71-aea1-cb253bddec86\", \"sequence\": 3, \"type\": \"stage.started\", \"stage\": \"research\", \"occurred_at\": \"2026-11-26T07:08:23.891654+00:00\", \"payload\": {}}\n\nid: 4\nevent: run.failed\ndata: {\"run_id\": \"0b7db787-e7e6-4b71-aea1-cb253bddec86\", \"sequence\": 4, \"type\": \"run.failed\", \"stage\": \"research\", \"occurred_at\": \"2026-11-26T07:08:26.929016+00:00\", \"payload\": {\"code\": \"ConnectError\", \"retryable\": true}}\n\n"
+}

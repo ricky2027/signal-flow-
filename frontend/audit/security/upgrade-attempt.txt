@@ -1,0 +1,40 @@
+
+> signalflow-frontend@0.1.0 security:upgrade
+> node scripts/upgrade-security.mjs
+
+Resolving checked targets from 2026-11-26: { next: '16.4.6', react: '19.3.1', 'react-dom': '19.3.1' }
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: signalflow-frontend@0.1.0
+npm warn Found: react@18.3.1
+npm warn node_modules/react
+npm warn   react@"19.3.1" from the root project
+npm warn   3 more (@radix-ui/react-compose-refs, @radix-ui/react-slot, lucide-react)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-slot@1.1.2
+npm warn node_modules/@radix-ui/react-slot
+npm warn   @radix-ui/react-slot@"1.1.2" from the root project
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: signalflow-frontend@0.1.0
+npm warn Found: react@18.3.1
+npm warn node_modules/react
+npm warn   react@"19.3.1" from the root project
+npm warn   3 more (@radix-ui/react-compose-refs, @radix-ui/react-slot, lucide-react)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer react@"^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc" from lucide-react@0.456.0
+npm warn node_modules/lucide-react
+npm warn   lucide-react@"0.456.0" from the root project
+npm error code ENOTFOUND
+npm error syscall getaddrinfo
+npm error errno ENOTFOUND
+npm error network request to https://registry.npmjs.org/@types%2freact failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+npm error network This is a problem related to network connectivity.
+npm error network In most cases you are behind a proxy or have bad network settings.
+npm error network
+npm error network If you are behind a proxy, please make sure that the
+npm error network 'proxy' config is set properly.  See: 'npm help config'
+npm error Log files were not written due to an error writing to the directory: /Users/ridhhingrover/.npm/_logs
+npm error You can rerun the command with `--loglevel=verbose` to see the logs in your terminal
+
+Upgrade not applied: the project manifest, lockfile and node_modules were preserved.

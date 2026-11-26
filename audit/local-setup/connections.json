@@ -1,0 +1,7 @@
+{
+  "database_configured": true,
+  "openai_key_configured": true,
+  "session_configured": true,
+  "database_error": "ModuleNotFoundError",
+  "openai_error": "ConnectError"
+}

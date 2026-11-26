@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/ridhhingrover/Desktop/signalflow/backend/app/worker.py", line 7, in <module>
+    from app.db import SessionLocal
+  File "/Users/ridhhingrover/Desktop/signalflow/backend/app/db.py", line 13, in <module>
+    engine = make_engine(settings().database_url)
+  File "/Users/ridhhingrover/Desktop/signalflow/backend/app/db.py", line 10, in make_engine
+    return create_engine(url, **kwargs)
+  File "<string>", line 2, in create_engine
+  File "/opt/homebrew/lib/python3.14/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/opt/homebrew/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 617, in create_engine
+    dbapi = dbapi_meth(**dbapi_args)
+  File "/opt/homebrew/lib/python3.14/site-packages/sqlalchemy/dialects/postgresql/psycopg.py", line 495, in import_dbapi
+    import psycopg
+ModuleNotFoundError: No module named 'psycopg'

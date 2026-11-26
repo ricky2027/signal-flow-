@@ -1,0 +1,9 @@
+{
+  "test": 0,
+  "test:security": 0,
+  "test:integration": 0,
+  "test:dom": 0,
+  "build": 0,
+  "typecheck": 0,
+  "test:e2e": 127
+}

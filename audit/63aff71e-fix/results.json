@@ -1,0 +1,24 @@
+{
+  "backend": {
+    "passed": 92,
+    "skipped": 1
+  },
+  "typescript": "passed",
+  "frontend-unit": {
+    "passed": 11,
+    "failed": 0
+  },
+  "frontend-security": {
+    "passed": 3,
+    "failed": 0
+  },
+  "frontend-integration": {
+    "passed": 3,
+    "failed": 0
+  },
+  "frontend-dom": {
+    "passed": 1,
+    "failed": 0
+  },
+  "playwright": "blocked: runner unavailable"
+}

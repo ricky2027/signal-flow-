@@ -1,0 +1,40 @@
+{
+  "new_run_id": null,
+  "submitted": false,
+  "outcome": "blocked_before_submission",
+  "database_check": {
+    "error_type": "OperationalError",
+    "reason": "dns_resolution_failed"
+  },
+  "http_check": {
+    "error_type": "ConnectError"
+  },
+  "openai_dns": "failed",
+  "sources": null,
+  "claims": null,
+  "signals": null,
+  "draft": null,
+  "tests": {
+    "backend": {
+      "passed": 82,
+      "skipped": 1
+    },
+    "frontend-unit": {
+      "passed": 11,
+      "failed": 0
+    },
+    "frontend-security": {
+      "passed": 3,
+      "failed": 0
+    },
+    "frontend-integration": {
+      "passed": 3,
+      "failed": 0
+    },
+    "frontend-dom": {
+      "passed": 1,
+      "failed": 0
+    },
+    "typescript": "passed"
+  }
+}

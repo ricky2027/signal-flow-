@@ -1,0 +1,27 @@
+{
+  "target_run": "63aff71e",
+  "live_inspection": "blocked: Neon DNS failure",
+  "historical_runs_modified": false,
+  "production_code_changed": false,
+  "backend": {
+    "passed": 87,
+    "skipped": 1
+  },
+  "frontend-unit": {
+    "passed": 11,
+    "failed": 0
+  },
+  "frontend-security": {
+    "passed": 3,
+    "failed": 0
+  },
+  "frontend-integration": {
+    "passed": 3,
+    "failed": 0
+  },
+  "frontend-dom": {
+    "passed": 1,
+    "failed": 0
+  },
+  "typescript": "passed"
+}

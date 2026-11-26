@@ -1,0 +1,41 @@
+{
+  "historical_run_id": "63aff71e-b455-4fc6-86cf-4d7095edf719",
+  "saved_company_website": null,
+  "unique_fetched_urls": 9,
+  "fetch_failures": [],
+  "bio_retrievals": [
+    {
+      "url": "https://www.kellyocg.com/about-us/leadership/pete-hamilton/",
+      "error": null,
+      "available": true
+    },
+    {
+      "url": "https://www.kellyocg.com/about-us/leadership/pete-hamilton/",
+      "error": null,
+      "available": true
+    }
+  ],
+  "bio_repairs": [
+    {
+      "url": "https://www.kellyocg.com/about-us/leadership/pete-hamilton/",
+      "final_rejections": [
+        "passage_not_found",
+        "source_not_retained"
+      ],
+      "initial_rejections": [
+        "passage_word_limit",
+        "source_not_retained"
+      ]
+    }
+  ],
+  "retained_source_count": 4,
+  "identity_confidence": "low",
+  "material_identity_conflict": false,
+  "retained_claim_kinds": [
+    "identity",
+    "identity",
+    "identity",
+    "context"
+  ],
+  "source_export_sha256": "eb9239685adaa7d39ee4e3c5abab59d668f3092eaca92ab0a852c198eb331582"
+}

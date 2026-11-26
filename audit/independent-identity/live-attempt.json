@@ -1,0 +1,23 @@
+{
+  "new_run_id": null,
+  "outcome": "blocked_before_submission",
+  "credentials_present": {
+    "database": true,
+    "openai": true,
+    "demo_access_code": true
+  },
+  "gates": {
+    "prospect_identity": "not_executed",
+    "company_association": "not_executed",
+    "title_match": "not_executed",
+    "role_currentness": "not_executed",
+    "signal_evaluation": "not_executed",
+    "draft_quality": "not_executed"
+  },
+  "error_type": "ConnectError",
+  "reason": "localhost_operation_not_permitted",
+  "dns_checks": {
+    "openai": "dns_resolution_failed",
+    "database": "dns_resolution_failed"
+  }
+}

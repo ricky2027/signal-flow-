@@ -1,0 +1,30 @@
+signalflow-frontend@0.1.0 /Users/ridhhingrover/Desktop/signalflow/frontend
+├─┬ @radix-ui/react-slot@1.1.2
+│ ├─┬ @radix-ui/react-compose-refs@1.1.1
+│ │ └── react@18.3.1 deduped
+│ └── react@18.3.1 deduped
+├─┬ autoprefixer@10.4.21
+│ └── postcss@8.5.33 deduped
+├─┬ lucide-react@0.456.0
+│ └── react@18.3.1 deduped
+├─┬ next@14.2.18
+│ ├── postcss@8.5.33 deduped
+│ ├── react-dom@18.3.1 deduped
+│ ├── react@18.3.1 deduped
+│ └─┬ styled-jsx@5.1.1
+│   └── react@18.3.1 deduped
+├── postcss@8.5.33 overridden
+├─┬ react-dom@18.3.1
+│ └── react@18.3.1 deduped
+├── react@18.3.1
+└─┬ tailwindcss@3.4.17
+  ├─┬ postcss-import@15.1.0
+  │ └── postcss@8.5.33 deduped
+  ├─┬ postcss-js@4.1.0
+  │ └── postcss@8.5.33 deduped
+  ├─┬ postcss-load-config@4.0.2
+  │ └── postcss@8.5.33 deduped
+  ├─┬ postcss-nested@6.2.0
+  │ └── postcss@8.5.33 deduped
+  └── postcss@8.5.33 deduped
+

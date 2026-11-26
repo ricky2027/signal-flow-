@@ -1,0 +1,9 @@
+
+> signalflow-frontend@0.1.0 test:e2e
+> npm --prefix browser-tests test
+
+
+> test
+> playwright test
+
+sh: playwright: command not found

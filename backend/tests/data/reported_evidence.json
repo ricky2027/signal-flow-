@@ -1,0 +1,41 @@
+{
+  "note": "Historical exported evidence only; no original page body or fabricated fresh evidence. Test fixture, never loaded by production.",
+  "as_of": "2026-11-26",
+  "evidence": {
+    "claims": [
+      {
+        "id": "claim-1",
+        "kind": "identity",
+        "text": "Satya Nadella is the Chief Executive Officer of Microsoft.",
+        "source_ids": [
+          "source-1",
+          "source-2",
+          "source-3",
+          "source-4",
+          "source-5"
+        ],
+        "entity_match": true,
+        "verification": "unsupported",
+        "conflict_group": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "source-3",
+        "url": "https://blogs.microsoft.com/blog/2026/03/12/microsoft-announces-experiences-devices-leadership-changes/?utm_source=openai",
+        "title": "Microsoft announces Experiences + Devices leadership changes - The Official Microsoft Blog",
+        "passage": "Rajesh Jha, Executive Vice President, Experiences + Devices, and Satya Nadella, Chairman and CEO, shared the below communications with Microsoft employees this morning.",
+        "planned": false,
+        "event_at": null,
+        "publisher": "Microsoft",
+        "date_basis": "publication",
+        "source_type": "primary",
+        "origin_group": "Microsoft",
+        "published_at": "2026-03-12"
+      }
+    ],
+    "warnings": [],
+    "identity_confidence": "high",
+    "material_identity_conflict": false
+  }
+}

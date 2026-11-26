@@ -1,0 +1,39 @@
+{
+  "installed_versions": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "postcss": "8.5.33",
+    "jsdom": "29.1.1"
+  },
+  "frontend_cases": {
+    "frontend-unit": {
+      "passed": 5,
+      "failed": 0
+    },
+    "frontend-security": {
+      "passed": 3,
+      "failed": 0
+    },
+    "frontend-integration": {
+      "passed": 3,
+      "failed": 0
+    },
+    "frontend-dom": {
+      "passed": 1,
+      "failed": 0
+    }
+  },
+  "backend": {
+    "passed": 34,
+    "skipped": 1
+  },
+  "production_build": "passed_webpack",
+  "fresh_npm_audit": "blocked_dns",
+  "postgresql": "blocked_environment_and_missing_driver",
+  "real_openai_research": "failed_connection",
+  "browser": "blocked",
+  "deployment": "not_performed",
+  "public_url": null,
+  "lockfile_sha256": "7ca8e0670381cc189a2cd8ff83f00136ee2c1d127aaee7fca3a651d28b66c474"
+}

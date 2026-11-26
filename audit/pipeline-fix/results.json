@@ -1,0 +1,26 @@
+{
+  "frontend-unit": {
+    "passed": 10,
+    "failed": 0
+  },
+  "frontend-security": {
+    "passed": 3,
+    "failed": 0
+  },
+  "frontend-integration": {
+    "passed": 3,
+    "failed": 0
+  },
+  "frontend-dom": {
+    "passed": 1,
+    "failed": 0
+  },
+  "backend": {
+    "passed": 65,
+    "skipped": 1
+  },
+  "production_build": "passed (isolated copy)",
+  "typescript": "passed",
+  "playwright": "blocked: runner not installed",
+  "new_live_run": "not_verified; source probe DNS failure"
+}

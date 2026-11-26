@@ -1,0 +1,79 @@
+{
+ "outcome": "no_relevant_signal",
+ "identity_checks": {
+  "prospect_identity": {
+   "status": "verified",
+   "claim_ids": [
+    "claim_1",
+    "claim_d38ea87f10a8b136ce742cec"
+   ],
+   "source_ids": [
+    "src_a06ef306cc0d00c21f4ef8c0",
+    "src_bdf1ebaed6e3188332b3629d"
+   ],
+   "reasons": []
+  },
+  "company_association": {
+   "status": "verified",
+   "claim_ids": [
+    "claim_1",
+    "claim_d38ea87f10a8b136ce742cec"
+   ],
+   "source_ids": [
+    "src_a06ef306cc0d00c21f4ef8c0",
+    "src_bdf1ebaed6e3188332b3629d"
+   ],
+   "reasons": []
+  },
+  "title_match": {
+   "status": "equivalent",
+   "claim_ids": [
+    "claim_1",
+    "claim_667ff7d3717ec9a0302c4917",
+    "claim_d38ea87f10a8b136ce742cec"
+   ],
+   "source_ids": [
+    "src_a06ef306cc0d00c21f4ef8c0",
+    "src_a590ad24d7bdf4d396d540e9",
+    "src_bdf1ebaed6e3188332b3629d"
+   ],
+   "reasons": []
+  },
+  "role_currentness": {
+   "status": "unverified",
+   "claim_ids": [],
+   "source_ids": [],
+   "reasons": [
+    "role_currentness_unverified"
+   ]
+  },
+  "role_claim_ids": [
+   "claim_1",
+   "claim_667ff7d3717ec9a0302c4917",
+   "claim_d38ea87f10a8b136ce742cec"
+  ]
+ },
+ "signal_evaluation": {
+  "state": "evaluated",
+  "reason": "no_relevant_signal",
+  "gate_reasons": [],
+  "candidate_count": 0,
+  "eligible_count": 0,
+  "selected_signal_id": null,
+  "relevance_basis": "verified_company_context",
+  "excluded_role_claim_ids": [
+   "claim_1",
+   "claim_667ff7d3717ec9a0302c4917",
+   "claim_d38ea87f10a8b136ce742cec"
+  ]
+ },
+ "signals": [],
+ "draft": null,
+ "sources": [
+  "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders",
+  "https://press.aboutamazon.com/2026/8/amazon-announces-new-manufacturing-facility-in-austin-texas",
+  "https://ir.aboutamazon.com/officers-and-directors/default.aspx",
+  "https://en.wikipedia.org/wiki/Andy_Jassy",
+  "https://www.aboutamazon.com/news/workplace/amazon-ceo-andy-jassy-first-job-advice"
+ ]
+}

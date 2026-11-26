@@ -1,0 +1,17 @@
+{
+  "new_run_id": null,
+  "submitted": false,
+  "outcome": "blocked_before_submission",
+  "database_check": {
+    "error_type": "OperationalError",
+    "reason": "dns_resolution_failed"
+  },
+  "http_check": {
+    "error_type": "ConnectError"
+  },
+  "openai_dns": "failed",
+  "sources": null,
+  "claims": null,
+  "signals": null,
+  "draft": null
+}

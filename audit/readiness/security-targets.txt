@@ -1,0 +1,5 @@
+
+> signalflow-frontend@0.1.0 security:check
+> node scripts/check-security.mjs
+
+Installed/locked targets match. A successful full npm audit and application/browser acceptance are still required.

@@ -1,0 +1,59 @@
+
+> signalflow-frontend@0.1.0 test
+> node --import tsx --test tests/unit.test.ts tests/research-display.test.ts
+
+TAP version 13
+# Subtest: insufficient evidence explains blocked scoring, including historical runs without diagnostics
+ok 1 - insufficient evidence explains blocked scoring, including historical runs without diagnostics
+  ---
+  duration_ms: 6.969417
+  ...
+# Subtest: selected scored signals display role/offer reasoning and supporting claims
+ok 2 - selected scored signals display role/offer reasoning and supporting claims
+  ---
+  duration_ms: 0.740333
+  ...
+# Subtest: evidence diagnostics display actual recorded rejection categories without inventing sources
+ok 3 - evidence diagnostics display actual recorded rejection categories without inventing sources
+  ---
+  duration_ms: 1.232541
+  ...
+# Subtest: all actual backend statuses have distinct labels and only queued/running are active
+ok 4 - all actual backend statuses have distinct labels and only queued/running are active
+  ---
+  duration_ms: 1.465209
+  ...
+# Subtest: timeline never invents completion from run status
+ok 5 - timeline never invents completion from run status
+  ---
+  duration_ms: 0.1225
+  ...
+# Subtest: abstention leaves incomplete stages stopped, not complete
+ok 6 - abstention leaves incomplete stages stopped, not complete
+  ---
+  duration_ms: 0.061792
+  ...
+# Subtest: runtime guards reject malformed API success bodies
+ok 7 - runtime guards reject malformed API success bodies
+  ---
+  duration_ms: 0.2005
+  ...
+# Subtest: unsafe URLs are never clickable source links
+ok 8 - unsafe URLs are never clickable source links
+  ---
+  duration_ms: 0.152666
+  ...
+# Subtest: browser requests include same-origin credentials and preserve invalid-code errors
+ok 9 - browser requests include same-origin credentials and preserve invalid-code errors
+  ---
+  duration_ms: 9.184833
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 261.511625
