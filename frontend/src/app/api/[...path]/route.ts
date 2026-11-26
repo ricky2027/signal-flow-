@@ -17,7 +17,12 @@ async function proxy(request: NextRequest, { params }: {
     const path = segments.join('/');
     if (!path.startsWith('v1/') && !['health/live', 'health/ready'].includes(path))
         return Response.json({ error: { code: 'not_found', message: 'Unknown endpoint' } }, { status: 404 });
-    const target = new URL(path.startsWith('health/') ? `/${path}` : `/api/${path}`, process.env.BACKEND_URL || 'http://127.0.0.1:8000');
+    const backendUrl = process.env.BACKEND_URL;
+    if (!backendUrl) {
+        console.error('[signalflow-proxy] BACKEND_URL is missing');
+        return Response.json({ error: { code: 'backend_url_missing', message: 'The backend URL is not configured.', retryable: false } }, { status: 500 });
+    }
+    const target = new URL(path.startsWith('health/') ? `/${path}` : `/api/${path}`, backendUrl);
     target.search = request.nextUrl.search;
     const headers = new Headers();
     for (const name of ['cookie', 'origin', 'content-type', 'idempotency-key', 'x-signalflow-client', 'last-event-id']) {
@@ -40,7 +45,8 @@ async function proxy(request: NextRequest, { params }: {
         }
         return new Response(upstream.body, { status: upstream.status, headers: output });
     }
-    catch {
+    catch (error) {
+        console.error('[signalflow-proxy] upstream request failed', path, error);
         return Response.json({ error: { code: 'backend_unavailable', message: 'Cannot reach the SIGNALFLOW API. Check that the backend is running.', retryable: true } }, { status: 502 });
     }
 }
