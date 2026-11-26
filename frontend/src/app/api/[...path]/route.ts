@@ -1,6 +1,11 @@
 import { NextRequest } from 'next/server';
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
+// Serverless function ceiling for the backend proxy (incl. SSE event streams).
+// 60s is the Vercel Hobby maximum; raise to 300 on Pro. When a long run's SSE
+// stream is cut at this ceiling the client reconnects from its last cursor and
+// keeps polling, so live updates degrade gracefully rather than breaking.
+export const maxDuration = 60;
 // Same-origin transport only: preserve the real browser Origin for backend CSRF checks.
 async function proxy(request: NextRequest, { params }: {
     params: Promise<{ path: string[] }>;
