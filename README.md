@@ -4,6 +4,48 @@ Latest local setup: [LOCAL_SETUP_REPORT.md](LOCAL_SETUP_REPORT.md) — credentia
 
 An evidence-first GTM workspace: public prospect research → qualified signals → personalised email draft → human review. No email is sent automatically.
 
+## Quick start (from GitHub)
+
+Secrets are **not** committed — after cloning you create your own env files from the
+committed `*.example` templates. You need Python 3.11+, [uv](https://docs.astral.sh/uv/),
+Node.js 20+, a PostgreSQL database, and an OpenAI API key with Responses/web-search access.
+
+```sh
+git clone https://github.com/ricky2027/signal-flow-.git
+cd signal-flow-
+```
+
+**1. Backend** (fill in your real `OPENAI_API_KEY`, `DATABASE_URL`, a 32+ char `SESSION_SECRET`,
+and a `DEMO_ACCESS_CODE` in `backend/.env`):
+
+```sh
+cd backend
+uv sync --extra test
+cp .env.example .env        # then edit .env with your real values
+uv run alembic upgrade head
+uv run uvicorn app.api:app --host 127.0.0.1 --port 8000
+```
+
+**2. Worker** (second terminal, from `backend/` — required for runs to execute):
+
+```sh
+uv run python -m app.worker
+```
+
+**3. Frontend** (third terminal, from the repo root):
+
+```sh
+cd frontend
+npm ci
+cp .env.example .env.local
+npm run dev
+```
+
+Open **http://localhost:3000**, sign in with your `DEMO_ACCESS_CODE`, and start a run at
+`/research/new`. Tip: `RUN_TIMEOUT_SECONDS=540` in `backend/.env` gives multi-pass research
+room to finish. See **[Run locally](#run-locally)** below for Docker Postgres and full detail,
+and **[DEPLOYMENT.md](DEPLOYMENT.md)** for hosting. Licensed under [MIT](LICENSE).
+
 The Next.js frontend and FastAPI backend are integrated through a same-origin streaming proxy. Production application data belongs in PostgreSQL. Test-only SQLite databases are isolated and never seeded as live research output.
 
 Current status: [ENGINEERING_REPORT.md](ENGINEERING_REPORT.md). The current installed/locked versions are Next.js 16.4.6, React/React DOM 19.3.1, PostCSS 8.5.33 and jsdom 29.1.1. Clean frontend reinstall, a production Webpack build, TypeScript, 12 executable frontend cases and 34 backend cases pass. A fresh npm audit, PostgreSQL, successful OpenAI research, native browser acceptance and public deployment remain blocked. **Not deployment-ready; no public URL verified.**
