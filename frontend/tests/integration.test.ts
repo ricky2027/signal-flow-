@@ -11,6 +11,9 @@ const { CookieJar } = createRequire(import.meta.url)('jsdom');
 const root = resolve(process.cwd(), '..');
 const database = `/tmp/signalflow-web-integration-${randomUUID()}.sqlite`;
 const python = process.env.BACKEND_PYTHON || resolve(root, 'backend/.venv/bin/python');
+// The proxy requires BACKEND_URL; the in-process fetch mock below routes every request
+// to the ASGI bridge regardless of host, so any non-empty value is sufficient here.
+process.env.BACKEND_URL = process.env.BACKEND_URL || 'http://127.0.0.1:8000';
 const env = { ...process.env, OPENAI_API_KEY: process.env.SIGNALFLOW_TEST_LIVE === '1' ? process.env.OPENAI_API_KEY : '', DATABASE_URL: `sqlite:///${database}`, SESSION_SECRET: 'isolated-integration-test-secret-0000000000', DEMO_ACCESS_CODE: 'test-access', COOKIE_SECURE: 'false', APP_ORIGIN: 'http://localhost:3000' };
 function bridge(payload: object) {
     const child = spawnSync(python, [resolve(root, 'backend/tests/frontend_bridge.py')], { cwd: resolve(root, 'backend'), input: JSON.stringify(payload), encoding: 'utf8', env, timeout: 90000 });

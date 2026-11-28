@@ -4,6 +4,7 @@ os.environ["DATABASE_URL"] = "sqlite://"
 os.environ["SESSION_SECRET"] = "test-secret-only-not-for-production-00000"
 os.environ["DEMO_ACCESS_CODE"] = "test-access"
 os.environ["COOKIE_SECURE"] = "false"
+os.environ["APP_ORIGIN"] = "http://localhost:3000"
 import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
